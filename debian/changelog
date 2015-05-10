@@ -2,7 +2,7 @@ sugar-update-control (0.28) tatu; urgency=low
 
   * Repackage for tatu. 
 
- -- Plan Ceibal <ceibal@plan.ceibal.edu.uy>  Sun, 10 May 2015 17:16:43 -0300
+ -- Plan Ceibal <ceibal@plan.ceibal.edu.uy>  Sun, 10 May 2015 17:27:33 -0300
 
 sugar-update-control (0.27) precise; urgency=low
 
