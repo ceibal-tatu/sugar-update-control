@@ -1,3 +1,9 @@
+sugar-update-control (0.29) tatu; urgency=medium
+
+  * Fixed dev dependency. 
+
+ -- Plan Ceibal <ceibal@plan.ceibal.edu.uy>  Sun, 10 May 2015 17:28:05 -0300
+
 sugar-update-control (0.28) tatu; urgency=low
 
   * Repackage for tatu. 
