@@ -1,8 +1,8 @@
-sugar-update-control (0.29) tatu; urgency=medium
+sugar-update-control (0.29) tatu; urgency=low
 
-  * Fixed dev dependency. 
+  * Fixed dev dependency
 
- -- Plan Ceibal <ceibal@plan.ceibal.edu.uy>  Sun, 10 May 2015 17:28:05 -0300
+ -- Plan Ceibal <ceibal@plan.ceibal.edu.uy>  Sun, 10 May 2015 17:29:28 -0300
 
 sugar-update-control (0.28) tatu; urgency=low
 
