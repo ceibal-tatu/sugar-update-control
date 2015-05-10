@@ -1,0 +1,228 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR One Laptop per Child Association, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-26 12:28-0400\n"
+"PO-Revision-Date: 2012-03-29 02:22+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fa_AF\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#: ../src/__init__.py:22 ../src/view.py:58
+msgid "Software update"
+msgstr "تجدید نرم افزار"
+
+#: ../src/view.py:186
+msgid "_Uncheck All"
+msgstr "تمام غیر بررسی بساز"
+
+#: ../src/view.py:192
+msgid "_Check All"
+msgstr "تمام را بررسی کن"
+
+#: ../src/view.py:287
+msgid "Group URL:"
+msgstr "گروپ URL"
+
+#. # expander/group list view at bottom
+#. special little extension to progress pane.
+#: ../src/view.py:357 ../src/view.py:532
+msgid "Modify activity groups"
+msgstr "گروپ های فعالیت را اصلاح کن"
+
+#: ../src/view.py:381
+msgid "Install selected"
+msgstr "نصب کردن انتخاب گردید"
+
+#: ../src/view.py:401
+#, python-format
+msgid "Download size: %s"
+msgstr "اندازه بار گیری کن %s"
+
+#: ../src/view.py:434
+msgid "Try again"
+msgstr "دوباره کوشش کن"
+
+#: ../src/view.py:466
+msgid "Cancelling..."
+msgstr "در حال لغو کردن..."
+
+#: ../src/view.py:484 ../src/view.py:510 ../src/view.py:601
+msgid "Checking for updates..."
+msgstr "بررسی کردن برای جدید کردن..."
+
+#: ../src/view.py:488 ../src/view.py:552
+msgid "Starting download..."
+msgstr "درحال شروع بارگیری..."
+
+#: ../src/view.py:515
+msgid ""
+"Software updates correct errors, eliminate security vulnerabilities, and "
+"provide new features."
+msgstr ""
+"تجدید نرم افزار اشتباهات، آسیب پذیری های امنیتی را رفع میکند و قابلیت های "
+"جدید اضافه میکند."
+
+#: ../src/view.py:550
+msgid "Downloading updates..."
+msgstr "در حال بار گیری تجدید ها..."
+
+#: ../src/view.py:573 ../src/model.py:841
+#, python-format
+msgid "Downloading %s..."
+msgstr "در حال بار گیری%s"
+
+#: ../src/view.py:578 ../src/model.py:845
+#, python-format
+msgid "Examining %s..."
+msgstr "در حال امتحان کردن %s"
+
+#: ../src/view.py:581 ../src/model.py:850
+#, python-format
+msgid "Installing %s..."
+msgstr "در حال نصب %s"
+
+#: ../src/view.py:631
+msgid "Could not access the network"
+msgstr "نمیتواند به شبکه دسترسی پیدا بکند"
+
+#: ../src/view.py:633
+msgid "Could not access the network to check for updates."
+msgstr "نمیتواند به شبکه دسترسی پیدا بکند تا برای جدید کردن بررسی نماید."
+
+#: ../src/view.py:638
+msgid "Your software is up-to-date"
+msgstr "نرم افزار شما جدید است"
+
+#: ../src/view.py:641
+#, python-format, fuzzy
+msgid "You can install %s update"
+msgid_plural "You can install %s updates"
+msgstr[0] "شما میتوانید جدید را نصب نمایید"
+
+#. TRANSLATORS: download size is 0
+#: ../src/model.py:63
+msgid "None"
+msgstr "هیچ کدام"
+
+#. TRANSLATORS: download size of very small updates
+#: ../src/model.py:66
+msgid "1 KB"
+msgstr "کیلو بایت"
+
+#. TRANSLATORS: download size of small updates, e.g. "250 KB"
+#: ../src/model.py:69
+#, python-format, fuzzy
+msgid "%.0f KB"
+msgstr "از کیلو بایت"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../src/model.py:72
+#, python-format, fuzzy
+msgid "%.1f MB"
+msgstr "میگا بایت"
+
+#. find all activities already installed.
+#: ../src/model.py:259
+msgid "Looking for local activities and content..."
+msgstr "در حال پیدا کردن فعالیت ها و محتوی محلی..."
+
+#. enumerate all group urls
+#: ../src/model.py:262 ../src/model.py:272
+msgid "Loading groups..."
+msgstr "در حال بار گیری گروپ ها..."
+
+#: ../src/model.py:282
+#, python-format, fuzzy
+msgid "Fetching %s..."
+msgstr "گیرنده یا در حال واکشی %s"
+
+#. add group header.
+#: ../src/model.py:300
+msgid "Activity Group"
+msgstr "گروپ فعالیت"
+
+#: ../src/model.py:331
+msgid "Local activities"
+msgstr "فعالیت های محلی"
+
+#: ../src/model.py:398
+#, python-format
+msgid "At version %s"
+msgstr "در نسخه %s"
+
+#: ../src/model.py:401
+#, python-format, fuzzy
+msgid "From version %(old)s to %(new)s (Size: %(size)s)"
+msgstr "از نسخه قدیمی به جدید، اندازه ٪"
+
+#: ../src/model.py:453
+#, python-format, fuzzy
+msgid "New version %(version)s (Size: %(size)s)"
+msgstr "نسخه جدید ، اندازه ٪"
+
+#: ../src/model.py:470
+#, python-format
+msgid "Checking %s..."
+msgstr "در حال بررسی کردن %s"
+
+#: ../src/model.py:611
+msgid "New group"
+msgstr "گروپ جدید"
+
+#: ../src/model.py:776
+#, python-format, fuzzy
+msgid "%(number)d updates available.  Size: %(size)s"
+msgstr "تعداد، جدید ها موجود است، اندازه ٪"
+
+#: ../src/model.py:783
+msgid "Setting the list of updates is not permitted."
+msgstr "زمینه فهرست جدید ها اجازه ندارند."
+
+#. this func is needed to make the 'install_update' key show up for '-l'
+#: ../src/model.py:788
+msgid "Only the 'set' operation for this key is defined."
+msgstr "فقط عملیات مجموعه برای این کلید تعریف شده است."
+
+#: ../src/model.py:801
+msgid "More than one match found for the given activity name or id."
+msgstr "بیشتر از یک مطابقت برای نام فعالیت یا آی دی داده شده پیدا گردید"
+
+#: ../src/model.py:803
+msgid "The given activity is already up-to-date."
+msgstr "فعالیت داده شده قبلا تجدید گردیده است."
+
+#: ../src/model.py:828
+msgid "No activity found with the given name or id."
+msgstr "کدام فعالیت به نام یا آی دی داده شده پیدا نگردید"
+
+#: ../src/model.py:848
+#, python-format
+msgid "Upgrading %s..."
+msgstr "در حال ترفیع %s"
+
+#: ../src/model.py:854
+#, python-format
+msgid "Error installing %s."
+msgstr "نصب کردن اشتباه %s"

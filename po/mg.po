@@ -1,0 +1,231 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR One Laptop per Child Association, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-26 12:28-0400\n"
+"PO-Revision-Date: 2013-11-11 09:41+0200\n"
+"Last-Translator: Gabriella <gabriella@intnet.mu>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: mg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#: ../src/__init__.py:22 ../src/view.py:58
+msgid "Software update"
+msgstr "Fanavaozana rindrambaiko"
+
+#: ../src/view.py:186
+msgid "_Uncheck All"
+msgstr "_Esorina marika daholo"
+
+#: ../src/view.py:192
+msgid "_Check All"
+msgstr "_Asiana marika daholo"
+
+#: ../src/view.py:287
+msgid "Group URL:"
+msgstr "URL vondrona:"
+
+#. # expander/group list view at bottom
+#. special little extension to progress pane.
+#: ../src/view.py:357 ../src/view.py:532
+msgid "Modify activity groups"
+msgstr "Hanova vondron-tsahanasa"
+
+#: ../src/view.py:381
+msgid "Install selected"
+msgstr "Hametraka ny nosafidiana"
+
+#: ../src/view.py:401
+#, python-format
+msgid "Download size: %s"
+msgstr "Haben'ny ampidinina: %s"
+
+#: ../src/view.py:434
+msgid "Try again"
+msgstr "Hanandrana indray"
+
+#: ../src/view.py:466
+msgid "Cancelling..."
+msgstr "Manafoana..."
+
+#: ../src/view.py:484 ../src/view.py:510 ../src/view.py:601
+msgid "Checking for updates..."
+msgstr "Mizaha fanavaozana..."
+
+#: ../src/view.py:488 ../src/view.py:552
+msgid "Starting download..."
+msgstr "Manomboka ny fampidinana..."
+
+#: ../src/view.py:515
+msgid ""
+"Software updates correct errors, eliminate security vulnerabilities, and "
+"provide new features."
+msgstr ""
+"Ireo fanavaozan-drindrambaiko dia manitsy ny diso, manafoana ny lesoka ara-"
+"piarovana ary manome fiasa vaovao."
+
+#: ../src/view.py:550
+msgid "Downloading updates..."
+msgstr "Mampidina fanavaozana..."
+
+#: ../src/view.py:573 ../src/model.py:841
+#, python-format
+msgid "Downloading %s..."
+msgstr "Mampidina %s..."
+
+#: ../src/view.py:578 ../src/model.py:845
+#, python-format
+msgid "Examining %s..."
+msgstr "Manadihady %s..."
+
+#: ../src/view.py:581 ../src/model.py:850
+#, python-format
+msgid "Installing %s..."
+msgstr "Mametraka %s..."
+
+#: ../src/view.py:631
+msgid "Could not access the network"
+msgstr "Tsy tafiditra amin'ilay tambajotra"
+
+#: ../src/view.py:633
+msgid "Could not access the network to check for updates."
+msgstr "Tsy tafiditra amin'ilay tambajotra hizahana fanavaozana."
+
+#: ../src/view.py:638
+msgid "Your software is up-to-date"
+msgstr "Manaraka toetrandro ny rindrambaikonao"
+
+#: ../src/view.py:641
+#, python-format
+msgid "You can install %s update"
+msgid_plural "You can install %s updates"
+msgstr[0] "Afaka mametraka ilay fanavaozana %s ianao"
+msgstr[1] "Afaka mametraka ireo fanavaozana %s ianao"
+
+#. TRANSLATORS: download size is 0
+#: ../src/model.py:63
+msgid "None"
+msgstr "Tsy misy"
+
+#. TRANSLATORS: download size of very small updates
+#: ../src/model.py:66
+msgid "1 KB"
+msgstr "1 KB"
+
+#. TRANSLATORS: download size of small updates, e.g. "250 KB"
+#: ../src/model.py:69
+#, python-format
+msgid "%.0f KB"
+msgstr "%.0f KB"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../src/model.py:72
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#. find all activities already installed.
+#: ../src/model.py:259
+msgid "Looking for local activities and content..."
+msgstr "Mitady sahanasa sy atiny eo an-toerana..."
+
+#. enumerate all group urls
+#: ../src/model.py:262 ../src/model.py:272
+msgid "Loading groups..."
+msgstr "Mamatratra vondrona..."
+
+#: ../src/model.py:282
+#, python-format
+msgid "Fetching %s..."
+msgstr "Maka %s..."
+
+#. add group header.
+#: ../src/model.py:300
+msgid "Activity Group"
+msgstr "Vondron-tsahanasa"
+
+#: ../src/model.py:331
+msgid "Local activities"
+msgstr "Sahanasa eo an-toerana"
+
+#: ../src/model.py:398
+#, python-format
+msgid "At version %s"
+msgstr "Amin'ny kinova %s"
+
+#: ../src/model.py:401
+#, python-format
+msgid "From version %(old)s to %(new)s (Size: %(size)s)"
+msgstr "Avy amin'ny kinova %(old)s lasa %(new)s (Habe: %(size)s)"
+
+#: ../src/model.py:453
+#, python-format
+msgid "New version %(version)s (Size: %(size)s)"
+msgstr "Kinova vaovao %(version)s (Habe: %(size)s)"
+
+#: ../src/model.py:470
+#, python-format
+msgid "Checking %s..."
+msgstr "Mizaha %s..."
+
+#: ../src/model.py:611
+msgid "New group"
+msgstr "Vondrona vaovao"
+
+#: ../src/model.py:776
+#, python-format
+msgid "%(number)d updates available.  Size: %(size)s"
+msgstr "Misy fanavaozana %(number)d.  Habe: %(size)s"
+
+#: ../src/model.py:783
+msgid "Setting the list of updates is not permitted."
+msgstr "Tsy azo atao ny manefy ny lisitr'ireo fanavaozana."
+
+#. this func is needed to make the 'install_update' key show up for '-l'
+#: ../src/model.py:788
+msgid "Only the 'set' operation for this key is defined."
+msgstr "Ny asa 'voatefy' ho an'ity lakile ity ihany no voafaritra."
+
+#: ../src/model.py:801
+msgid "More than one match found for the given activity name or id."
+msgstr ""
+"Misy tandrify mihoatra ny iray hita mitondra io anarana na id-n'ny sahanasa "
+"voalaza io."
+
+#: ../src/model.py:803
+msgid "The given activity is already up-to-date."
+msgstr "Efa manaraka toetrandro ilay sahanasa voalaza."
+
+#: ../src/model.py:828
+msgid "No activity found with the given name or id."
+msgstr "Tsy misy sahanasa hita mitondra ilay anarana na id voalaza."
+
+#: ../src/model.py:848
+#, python-format
+msgid "Upgrading %s..."
+msgstr "Mampiakatra grady %s..."
+
+#: ../src/model.py:854
+#, python-format
+msgid "Error installing %s."
+msgstr "Tsy nety ny fametrahana ny %s."

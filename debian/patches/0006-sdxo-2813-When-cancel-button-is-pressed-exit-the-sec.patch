@@ -1,0 +1,33 @@
+From d2295abdda5835beaa2d1a0b881fea78afc8e56f Mon Sep 17 00:00:00 2001
+From: Ajay Garg <ajay@activitycentral.com>
+Date: Thu, 20 Dec 2012 15:07:29 +0530
+Subject: [PATCH] sdxo#2813: When "cancel" button is pressed, exit the
+                            section-view, because anyways, the reloading logic doesn't
+			    work fine.
+Organization: Sugar Labs Foundation
+Signed-off-by: Ajay Garg <ajay@activitycentral.com>
+---
+ src/view.py | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+
+diff --git a/src/view.py b/src/view.py
+index 45df197..18c1aa0 100755
+--- a/src/view.py
++++ b/src/view.py
+@@ -586,9 +586,10 @@ class ActivityUpdater(SectionView):
+         Thread(target=do_download).start()
+ 
+     def cancel_cb(self, widget, event, data=None):
+-        """Callback when the cancel button is clicked."""
+-        self.progress_pane.cancelling()
+-        self._cancel_func()
++        """Callback when the cancel button is clicked.
++        Do the same thing that you would have done had you exited the
++        section-view"""
++        get_control_panel()._section_toolbar.accept_button.emit('clicked')
+ 
+     def refresh_cb(self, widget, event, clear_cache=True):
+         """Invoked when the 'refresh' button is clicked."""
+-- 
+1.7.11.7
+

@@ -1,0 +1,919 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR One Laptop per Child Association, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-26 12:28-0400\n"
+"PO-Revision-Date: 2011-09-26 22:17+0200\n"
+"Last-Translator: Jakub <jamarat@o2.pl>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#: ../src/__init__.py:22 ../src/view.py:58
+msgid "Software update"
+msgstr "Aktualizacja oprogramowania"
+
+# Czy w ogóle to tłumaczyć?
+#: ../src/view.py:186
+msgid "_Uncheck All"
+msgstr "_Odznacz wszystko"
+
+# Czy w ogóle to tłumaczyć?
+#: ../src/view.py:192
+msgid "_Check All"
+msgstr "_Zaznacz wszystko"
+
+#: ../src/view.py:287
+msgid "Group URL:"
+msgstr "URL grupy:"
+
+#. # expander/group list view at bottom
+#. special little extension to progress pane.
+#: ../src/view.py:357 ../src/view.py:532
+msgid "Modify activity groups"
+msgstr "Zmień grupy czynności"
+
+#: ../src/view.py:381
+msgid "Install selected"
+msgstr "Zainstaluj zaznaczone"
+
+#: ../src/view.py:401
+#, python-format
+msgid "Download size: %s"
+msgstr "Rozmiar pobieranych plików: %s"
+
+#: ../src/view.py:434
+msgid "Try again"
+msgstr "Spróbuj ponownie"
+
+#: ../src/view.py:466
+msgid "Cancelling..."
+msgstr "Anulowanie..."
+
+#: ../src/view.py:484 ../src/view.py:510 ../src/view.py:601
+msgid "Checking for updates..."
+msgstr "Szukam uaktualnień..."
+
+#: ../src/view.py:488 ../src/view.py:552
+msgid "Starting download..."
+msgstr "Zaczynam pobieranie..."
+
+#: ../src/view.py:515
+msgid ""
+"Software updates correct errors, eliminate security vulnerabilities, and "
+"provide new features."
+msgstr ""
+"Aktualizacja oprogramowania usuwa jego błędy, poprawia zabezpieczenia i "
+"dodaje nowe funkcje."
+
+#: ../src/view.py:550
+msgid "Downloading updates..."
+msgstr "Pobieranie uaktualnień..."
+
+#: ../src/view.py:573 ../src/model.py:841
+#, python-format
+msgid "Downloading %s..."
+msgstr "Pobieram %s..."
+
+#: ../src/view.py:578 ../src/model.py:845
+#, python-format
+msgid "Examining %s..."
+msgstr "Sprawdzam %s..."
+
+#: ../src/view.py:581 ../src/model.py:850
+#, python-format
+msgid "Installing %s..."
+msgstr "Instaluję %s..."
+
+#: ../src/view.py:631
+msgid "Could not access the network"
+msgstr "Nie mogę uzyskać dostępu do sieci"
+
+#: ../src/view.py:633
+msgid "Could not access the network to check for updates."
+msgstr "Nie mogę uzyskać dostępu do sieci aby sprawdzić uaktualnienia."
+
+#: ../src/view.py:638
+msgid "Your software is up-to-date"
+msgstr "Używasz najnowszej wersji oprogramowania."
+
+#: ../src/view.py:641
+#, python-format
+msgid "You can install %s update"
+msgid_plural "You can install %s updates"
+msgstr[0] "Możesz zainstalować %s uaktualnienie."
+msgstr[1] "Możesz zainstalować %s uaktualnienia."
+msgstr[2] "Możesz zainstalować %s uaktualnień."
+
+#. TRANSLATORS: download size is 0
+#: ../src/model.py:63
+msgid "None"
+msgstr "Żaden"
+
+#. TRANSLATORS: download size of very small updates
+#: ../src/model.py:66
+msgid "1 KB"
+msgstr "1 KB"
+
+#. TRANSLATORS: download size of small updates, e.g. "250 KB"
+#: ../src/model.py:69
+#, python-format
+msgid "%.0f KB"
+msgstr "%.0f KB"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../src/model.py:72
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#. find all activities already installed.
+#: ../src/model.py:259
+msgid "Looking for local activities and content..."
+msgstr "Szukam lokalnych czynności i zawartości..."
+
+#. enumerate all group urls
+#: ../src/model.py:262 ../src/model.py:272
+msgid "Loading groups..."
+msgstr "Ładuję grupy..."
+
+#: ../src/model.py:282
+#, python-format
+msgid "Fetching %s..."
+msgstr "Pobieram %s..."
+
+#. add group header.
+#: ../src/model.py:300
+msgid "Activity Group"
+msgstr "Grupa czynności"
+
+#: ../src/model.py:331
+msgid "Local activities"
+msgstr "Lokalne czynności"
+
+#: ../src/model.py:398
+#, python-format
+#, python-format,
+msgid "At version %s"
+msgstr "W wersji %s"
+
+#: ../src/model.py:401
+#, python-format, 
+msgid "From version %(old)s to %(new)s (Size: %(size)s)"
+msgstr "Z wersji %(old)s do %(new)s (Rozmiar: %(size)s)"
+
+#: ../src/model.py:453
+#, python-format
+msgid "New version %(version)s (Size: %(size)s)"
+msgstr "Nowa wersja %(version)s (Rozmiar: %(size)s)"
+
+#: ../src/model.py:470
+#, python-format
+msgid "Checking %s..."
+msgstr "Sprawdzam %s..."
+
+#: ../src/model.py:611
+msgid "New group"
+msgstr "Nowa grupa"
+
+#: ../src/model.py:776
+#, python-format
+msgid "%(number)d updates available.  Size: %(size)s"
+msgstr "Dostępnych uaktualnień: %(number)d .  Rozmiar: %(size)s"
+
+#: ../src/model.py:783
+msgid "Setting the list of updates is not permitted."
+msgstr "Ustawianie listy uaktualnień jest niedozwolone."
+
+#. this func is needed to make the 'install_update' key show up for '-l'
+#: ../src/model.py:788
+msgid "Only the 'set' operation for this key is defined."
+msgstr "Tylko opcja 'ustaw' (set) jest zdefiniowana dla tego klawisza."
+
+#: ../src/model.py:801
+msgid "More than one match found for the given activity name or id."
+msgstr ""
+"Znaleziono więcej niż jedno dopasowanie dla podanej czynności lub "
+"identyfikatora."
+
+#: ../src/model.py:803
+msgid "The given activity is already up-to-date."
+msgstr "Ta czynność jest zainstalowana w najnowszej wersji."
+
+#: ../src/model.py:828
+msgid "No activity found with the given name or id."
+msgstr "Nie znaleziono żadnej czynności o podanej nazwie lub identyfikatorze."
+
+#: ../src/model.py:848
+#, python-format
+#, python-format,
+msgid "Upgrading %s..."
+msgstr "Aktualizacja %s..."
+
+#: ../src/model.py:854
+#, python-format
+msgid "Error installing %s."
+msgstr "Błąd podczas instalacji %s."
+
+#~ msgid "My touchpad"
+#~ msgstr "Mój gładzik"
+
+#, python-format
+#~ msgid "Suggestion: %s"
+#~ msgstr "Wskazówka: %s"
+
+#~ msgid "Software"
+#~ msgstr "Oprogramowanie"
+
+#~ msgid "My Speakers"
+#~ msgstr "Moje głośniki"
+
+#~ msgid "Serial Number:"
+#~ msgstr "Numer seryjny:"
+
+#~ msgid "About Me"
+#~ msgstr "O mnie"
+
+#~ msgid "Keyboard"
+#~ msgstr "Klawiatura"
+
+#~ msgid "Disconnect"
+#~ msgstr "Rozłącz"
+
+#~ msgid "Discard network history"
+#~ msgstr "Usuń historię sieci"
+
+#~ msgid "Access Point Name (APN):"
+#~ msgstr "Nawa punktu dostępu (APN):"
+
+#~ msgid "State is unknown."
+#~ msgstr "Nieznany stan."
+
+#~ msgid "Click to change your color:"
+#~ msgstr "Kliknij aby zmienić swój kolor:"
+
+#~ msgid "Font face that is used throughout the desktop."
+#~ msgstr "Czcionka używana na pulpicie."
+
+#~ msgid "Try connection again"
+#~ msgstr "Próbuj połączyć ponownie"
+
+#~ msgid "Wireless Firmware:"
+#~ msgstr "Firmware łączności bezprzewodowej:"
+
+#~ msgid "Collaboration"
+#~ msgstr "Współpraca"
+
+#~ msgid "Timezone setting for the system."
+#~ msgstr "Ustawienia strefy czasowej systemu."
+
+#~ msgid "The keyboard model to be used"
+#~ msgstr "Model klawiatury, który ma być użyty"
+
+#~ msgid "Disconnect..."
+#~ msgstr "Rozłącz..."
+
+#~ msgid "never"
+#~ msgstr "nigdy"
+
+#~ msgid "Back"
+#~ msgstr "Wstecz"
+
+#~ msgid "Error in specified colors."
+#~ msgstr "Błąd w podanych kolorach."
+
+#~ msgid "User Color"
+#~ msgstr "Kolor użytkownika"
+
+#~ msgid "Home"
+#~ msgstr "Dom"
+
+#~ msgid "Group"
+#~ msgstr "Grupa"
+
+#~ msgid "Modem Configuration"
+#~ msgstr "Konfiguracja modemu"
+
+#~ msgid "Charging"
+#~ msgstr "Ładuję baterię"
+
+#, python-format
+#~ msgid "Screenshot of \"%s\""
+#~ msgstr "Zrzut ekranu z \"%s\""
+
+#~ msgid "Removed"
+#~ msgstr "Usunięto"
+
+# chyba telefonu...
+#~ msgid "Number:"
+#~ msgstr "Numer (telefonu):"
+
+#~ msgid "Setting for muting the sound device."
+#~ msgstr "Ustawienia wyciszania dźwięku."
+
+#~ msgid "Bundle IDs of protected activities"
+#~ msgstr "Identyfikatory (ID) chronionych czynności"
+
+#~ msgid "Personal Unblocking Key (PUK):"
+#~ msgstr "Numer PUK:"
+
+#, python-format
+#~ msgid "Invite to %s"
+#~ msgstr "Zaproś do %s"
+
+#~ msgid "GSM network username"
+#~ msgstr "Nazwa użytkownika sieci GSM"
+
+#~ msgid "Frame"
+#~ msgstr "Ramka"
+
+#~ msgid "My Battery"
+#~ msgstr "Moja bateria"
+
+#~ msgid "Favorites Layout"
+#~ msgstr "Układ ulubionych"
+
+#~ msgid "Power management"
+#~ msgstr "Zarządzanie zasilaniem"
+
+#, python-format
+#~ msgid "%(interface)s: %(version)s"
+#~ msgstr "%(interface)s: %(version)s"
+
+#~ msgid "Username:"
+#~ msgstr "Użytkownik:"
+
+#~ msgid "Delay for the activation of the frame using the corners."
+#~ msgstr "Opóźnienie pojawienia się ramki używając rogów ekranu."
+
+#~ msgid "Password:"
+#~ msgstr "Hasło:"
+
+#, python-format
+#~ msgid "Language for code=%s could not be determined."
+#~ msgstr "Nie można określić języka dla kodu=%s."
+
+#~ msgid "Date & Time"
+#~ msgstr "Data i czas"
+
+#~ msgid "Radio"
+#~ msgstr "Radio"
+
+#~ msgid "Very little power remaining"
+#~ msgstr "Bardzo niski stan naładowania baterii"
+
+#, python-format
+#, python-format, fuzzy
+#~ msgid "Mesh Network %d"
+#~ msgstr "Sieć"
+
+#~ msgid "stylus"
+#~ msgstr "rysik"
+
+#, python-format
+#, python-format, 
+#~ msgid "Mesh Network %s"
+#~ msgstr "Sieć kratowa %s"
+
+#~ msgid ""
+#~ "If TRUE, Sugar will make us searchable for the other users of the Jabber "
+#~ "server."
+#~ msgstr ""
+#~ "Jeżeli TAK, Sugar sprawi, że będziemy do odnalezienia przez innych "
+#~ "użytkowników serwera Jabber."
+
+#, fuzzy
+#~ msgid "Key(s) to change layout"
+#~ msgstr "Przycisk(i) zmieniające układ (klawiatury)"
+
+#~ msgid "Resume"
+#~ msgstr "Wznów"
+
+#~ msgid "Corner Delay"
+#~ msgstr "Opóźnienie (w rogu)"
+
+#~ msgid "Register"
+#~ msgstr "Zarejestruj"
+
+#~ msgid "You must enter a name."
+#~ msgstr "Musisz wprowadzić nazwę."
+
+#~ msgid "Network"
+#~ msgstr "Sieć"
+
+#~ msgid "Next"
+#~ msgstr "Dalej"
+
+#, fuzzy
+#~ msgid ""
+#~ "List of keyboard layouts. Each entry should be in the form layout(variant)"
+#~ msgstr "Lista układów klawiatur. "
+
+#~ msgid "Server:"
+#~ msgstr "Serwer:"
+
+#, fuzzy
+#~ msgid "Starting..."
+#~ msgstr "Rozpoczynanie..."
+
+#~ msgid "Connected"
+#~ msgstr "Połączony"
+
+#~ msgid "Join"
+#~ msgstr "Dołącz"
+
+#~ msgid "Url of the jabber server to use."
+#~ msgstr "URL serwera Jabbera, który ma być użyty."
+
+#~ msgid "Automatic power management (increases battery life)"
+#~ msgstr "Automatyczne zarządzanie zasilaniem (zwiększa żywotność baterii)"
+
+#~ msgid "Key Type:"
+#~ msgstr "Rodzaj klucza:"
+
+#~ msgid ""
+#~ "Color for the XO icon that is used throughout the desktop. The string is "
+#~ "composed of the stroke color and fill color, format is that of rgb colors. "
+#~ "Example: #AC32FF,#9A5200"
+#~ msgstr ""
+#~ "Kolor ikony XO, który jest używany na pulpicie. Należy go złożyć w postaci "
+#~ "ciągu znaków (w formacie kolorów rgb używanych w sieci) z koloru kreski i "
+#~ "koloru wypełnienia. Np: #AC32FF,#9A5200"
+
+#~ msgid "Error in specified radio argument use on/off."
+#~ msgstr "Błąd w podanych argumentach radia użyj Włącz/Wyłącz"
+
+#, fuzzy
+#~ msgid "Could not access ~/.i18n. Create standard settings."
+#~ msgstr ""
+#~ "Nie można odczytać ~/.i18n (pliku tłumaczeń). Stwórz standardowe ustawienia."
+
+#, python-format
+#~ msgid "fill:     color=%s hue=%s"
+#~ msgstr "wypełnienie:     kolor=%s odcień=%s"
+
+#, python-format
+#~ msgid "Error: %s"
+#~ msgstr "Błąd: %s"
+
+#~ msgid "Screenshot"
+#~ msgstr "Zrzut ekranu"
+
+#~ msgid "Mesh"
+#~ msgstr "Krata"
+
+#~ msgid "GSM network telephone number configuration"
+#~ msgstr "Konfiguracja numeru telefonu sieci GSM"
+
+#~ msgid "Language"
+#~ msgstr "Język"
+
+#~ msgid "Edge"
+#~ msgstr "Krawędź"
+
+#~ msgid "Installing updates..."
+#~ msgstr "Instaluję uaktualnienia..."
+
+#~ msgid "Font size that is used throughout the desktop."
+#~ msgstr "Rozmiar czcionki używany na pulpicie."
+
+#~ msgid "Error in extreme pm argument, use on/off."
+#~ msgstr "Błąd w argumencie modułu zasilania, użyj Włącz/Wyłącz."
+
+#~ msgid "Volume Level"
+#~ msgstr "Poziom głośności"
+
+#~ msgid "Keyboard Model"
+#~ msgstr "Model klawiatury"
+
+#~ msgid "Connect"
+#~ msgstr "Połącz"
+
+#~ msgid "Shutdown"
+#~ msgstr "Zakończ"
+
+#~ msgid "Cancel"
+#~ msgstr "Anuluj"
+
+#~ msgid "List of keyboard options."
+#~ msgstr "Lista opcji klawiatury."
+
+#~ msgid "Copyright and License"
+#~ msgstr "Prawa autorskie i licencja"
+
+#~ msgid "Build:"
+#~ msgstr "System:"
+
+#~ msgid "Edge Delay"
+#~ msgstr "Opóźnienie (na krawędzi)"
+
+#~ msgid "Keyboard model"
+#~ msgstr "Model klawiatury"
+
+#~ msgid "Layout of the favorites view."
+#~ msgstr "Układ widoku ulubionych."
+
+#~ msgid "Error in automatic pm argument, use on/off."
+#~ msgstr ""
+#~ "Błąd w argumencie (trybu automatycznego) modułu zasilania, użyj "
+#~ "Włącz/Wyłącz."
+
+#~ msgid "Power"
+#~ msgstr "Zasilanie"
+
+#~ msgid "Power Automatic."
+#~ msgstr "Kontrola zasilania - automatyczna."
+
+#~ msgid "Discard network history if you have trouble connecting to the network"
+#~ msgstr "Usuń historię sieci jeżeli masz problemy z połączeniem się z siecią."
+
+#~ msgid "Keyboard options"
+#~ msgstr "Opcje klawiatury"
+
+#~ msgid "Power Automatic"
+#~ msgstr "Kontrola zasilania - automatyczna"
+
+#, python-format
+#~ msgid "stroke:   %s"
+#~ msgstr "kreska:   %s"
+
+#, python-format
+#~ msgid "%d KB"
+#~ msgstr "%d KB"
+
+#~ msgid "If TRUE, Sugar will show a \"Log out\" option."
+#~ msgstr "Jeżeli TAK, Sugar pokaże opcję \"Wyloguj się\"."
+
+#~ msgid ""
+#~ "The server is the equivalent of what room you are in; people on the same "
+#~ "server will be able to see each other, even when they aren't on the same "
+#~ "network."
+#~ msgstr ""
+#~ "Serwer jest odpowiednikiem tego, w jakim pokoju się znajdujesz. Osoby na tym "
+#~ "samym serwerze będą mogły widzieć się nawzajem, nawet jeżeli nie są w tej "
+#~ "samej sieci."
+
+#~ msgid "Speed"
+#~ msgstr "Prędkość"
+
+#~ msgid "Not available"
+#~ msgstr "Niedostępne"
+
+#, fuzzy
+#~ msgid "Favorites resume mode"
+#~ msgstr "Ulubiony tryb przywracania"
+
+#~ msgid "Show Restart"
+#~ msgstr "Pokaż \"Restartuj\""
+
+#~ msgid "Keyboard Layout(s)"
+#~ msgstr "Układ(y) klawiatury"
+
+#~ msgid "Activation Delay"
+#~ msgstr "Opóźnienie pokazania"
+
+#~ msgid "Keep"
+#~ msgstr "Zachowaj"
+
+#~ msgid "Power Extreme."
+#~ msgstr "Kontrola zasilania - oszczędna."
+
+#~ msgid "Turn off the wireless radio to save battery life"
+#~ msgstr "Wyłącz łączność bezprzewodową (radio) aby oszczędzać baterie."
+
+#~ msgid "Mute"
+#~ msgstr "Wycisz"
+
+#~ msgid "GSM network access point name configuration"
+#~ msgstr "Konfiguracja nazwy punktu dostępu (APN) sieci GSM"
+
+#~ msgid "Connecting..."
+#~ msgstr "Łączenie..."
+
+#~ msgid "Default nick"
+#~ msgstr "Domyślna nazwa użytkownika"
+
+#~ msgid "Corner"
+#~ msgstr "Róg"
+
+#, python-format
+#~ msgid "fill:     %s"
+#~ msgstr "wypełnienie:     %s"
+
+#~ msgid ""
+#~ "\"disabled\" to ask nick on initialization; \"system\" to reuse UNIX account "
+#~ "long name."
+#~ msgstr ""
+#~ "\"nieaktywny\" aby poprosić o nazwę użytkownika podczas inicjalizacji; "
+#~ "\"system\" aby użyć nazwy konta UNIX jako nazwy użytkownika."
+
+#~ msgid "Volume level for the sound device."
+#~ msgstr "Poziom głośności urządzenia dźwiękowego."
+
+#~ msgid "Create a connection in the control panel."
+#~ msgstr "Stwórz połączenie w panelu sterowania."
+
+#~ msgid "finger"
+#~ msgstr "palec"
+
+#~ msgid "Sound Muted"
+#~ msgstr "Dźwięk wyciszony"
+
+#~ msgid "Neighborhood"
+#~ msgstr "Sąsiedztwo"
+
+#~ msgid "User name that is used throughout the desktop."
+#~ msgstr "Nazwa użytkownika, która jest używana na pulpicie."
+
+#~ msgid "Firmware:"
+#~ msgstr "Firmware:"
+
+#~ msgid "Personal Identity Number (PIN):"
+#~ msgstr "Numer PIN:"
+
+#, python-format, 
+#~ msgid "Connected for %s"
+#~ msgstr "Połączono z %s"
+
+#~ msgid "Check your Access Point Name (APN) configuration"
+#~ msgstr "Sprawdź konfigurację nazwy punktu dostępu (APN)."
+
+#~ msgid "User Name"
+#~ msgstr "Nazwa uzytkownika"
+
+#~ msgid "Default font size"
+#~ msgstr "Domyślny rozmiar czcionki"
+
+#~ msgid "Identity"
+#~ msgstr "Tożsamość"
+
+#~ msgid "GSM network personal identification number configuration"
+#~ msgstr "Konfiguracja kodu PIN sieci GSM (karty SIM)"
+
+#~ msgid "GSM network APN"
+#~ msgstr "Nazwa punktu dostępu (APN) sieci GSM"
+
+#~ msgid "Additional directories which can contain updated translations."
+#~ msgstr "Dodatkowe katalogi, które mogą zawierać (uaktualnione) tłumaczenia."
+
+#~ msgid "Jabber Server"
+#~ msgstr "Serwer Jabbera"
+
+#, fuzzy
+#~ msgid "Done"
+#~ msgstr "Zakończono"
+
+#~ msgid "Open"
+#~ msgstr "Otwórz"
+
+#~ msgid "GSM network password"
+#~ msgstr "Hasło sieci GSM"
+
+#, python-format
+#~ msgid "Sorry I do not speak '%s'."
+#~ msgstr "Przykro mi, nie mówię w języku '%s'."
+
+#~ msgid ""
+#~ "You will need to provide the following information to set up a mobile "
+#~ "broadband connection to a cellular (3G) network."
+#~ msgstr ""
+#~ "Musisz wprowadzić następujące informacje aby skonfigurować modem "
+#~ "szerokopasmowej łączności bezprzewodowej w sieci 3G."
+
+#~ msgid "GSM network number"
+#~ msgstr "Numer sieci GSM"
+
+#~ msgid "Stop"
+#~ msgstr "Zatrzymaj"
+
+#~ msgid "Copy"
+#~ msgstr "Kopiuj"
+
+#~ msgid "Name:"
+#~ msgstr "Imię:"
+
+#~ msgid "Disconnected"
+#~ msgstr "Rozłączony"
+
+#~ msgid "Wireless modem"
+#~ msgstr "Modem bezprzewodowy"
+
+#~ msgid ""
+#~ "Extreme power management (disableswireless radio, increases battery life)"
+#~ msgstr ""
+#~ "Oszczędne zarządzanie zasilaniem (wyłącza łączność bezprzewodową, zwiększa "
+#~ "czas pracy baterii)"
+
+#~ msgid "Activity"
+#~ msgstr "Czynność"
+
+#~ msgid "Charged"
+#~ msgstr "Naładowana"
+
+#~ msgid "Url where the backup is saved to."
+#~ msgstr "URL, gdzie ma być zapisywana kopia zapasowa."
+
+#~ msgid "Error timezone does not exist."
+#~ msgstr "Błąd, strefa czasowa nie istnieje."
+
+#~ msgid "Remove friend"
+#~ msgstr "Usuń przyjaciela"
+
+#, python-format
+#~ msgid "stroke:   color=%s hue=%s"
+#~ msgstr "kreska:   kolor=%s odcień=%s"
+
+#~ msgid "Check the Number configuration."
+#~ msgstr "Sprawdź jaki podałeś w konfiguracji numer (telefonu)."
+
+#~ msgid "Wired Network"
+#~ msgstr "Sieć przewodowa"
+
+#, python-format
+#~ msgid "%s update was installed"
+#~ msgid_plural "%s updates were installed"
+#~ msgstr[0] "Zostało zainstalowane %s uaktualnienie."
+#~ msgstr[1] "Zostały zainstalowane %s uaktualnienia."
+#~ msgstr[2] "Zostało zainstalowane %s uaktualnień."
+
+#~ msgid "GSM network personal unlock key configuration"
+#~ msgstr "Konfiguracja kodu PUK sieci GSM (karty SIM)"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgid "Value must be an integer."
+#~ msgstr "Wartość musi być liczbą całkowitą."
+
+#~ msgid "GSM network PIN"
+#~ msgstr "Kod PIN sieci GSM (karty SIM)"
+
+#~ msgid "No GSM connection available."
+#~ msgstr "Brak połączenia GSM."
+
+#~ msgid ""
+#~ "Sugar is the graphical user interface that you are looking at. Sugar is free "
+#~ "software, covered by the GNU General Public License, and you are welcome to "
+#~ "change it and/or distribute copies of it under certain conditions described "
+#~ "therein."
+#~ msgstr ""
+#~ "Cukier jest graficznym interfejsem użytkownika, na który patrzysz. Cukier "
+#~ "jest wolnym oprogramowaniem, podlegającym zapisom licencji GNU General "
+#~ "Public License. Mile widzialne jest zmiana i/lub dystrybuowanie jego kopii w "
+#~ "ramach warunków opisanych w owej licencji."
+
+#~ msgid ""
+#~ "Add languages in the order you prefer. If a translation is not available, "
+#~ "the next in the list will be used."
+#~ msgstr ""
+#~ "Dodaj języki w preferowanej kolejności. Jeżeli tłumaczenie nie będzie "
+#~ "dostępne, będzie użyty kolejny język z listy."
+
+#~ msgid "Channel"
+#~ msgstr "Kanał"
+
+# Jak ma się po polsku nazywać Sugar?!?
+#~ msgid "Sugar:"
+#~ msgstr "Cukier:"
+
+#~ msgid "Backup URL"
+#~ msgstr "URL dla kopii zapasowej"
+
+#~ msgid "instantaneous"
+#~ msgstr "natychmiastowy"
+
+#, python-format
+#, python-format, 
+#~ msgid "%s seconds"
+#~ msgstr "%s sekund(y)"
+
+#, fuzzy
+#~ msgid "To apply your changes you have to restart sugar.\n"
+#~ msgstr "Aby zastosować zmiany należy uruchomić ponownie sugar."
+
+#, fuzzy
+#~ msgid "Publish to Gadget"
+#~ msgstr "Publikuj w Gadżetach"
+
+#~ msgid "Unmute"
+#~ msgstr "Włącz głos"
+
+#~ msgid "Show Sugar Ad-hoc networks"
+#~ msgstr "Pokaż sieci ad-hoc"
+
+#~ msgid "Full license:"
+#~ msgstr "Pełna licencja:"
+
+#~ msgid "Power Extreme"
+#~ msgstr "Kontrola zasilania - oszczędna"
+
+#~ msgid "Delay for the activation of the frame using the edges."
+#~ msgstr "Opóźnienie pojawienia się ramki używając krawędzi ekranu."
+
+#~ msgid "Mesh Network"
+#~ msgstr "Sieć kratowa"
+
+#~ msgid "Timezone"
+#~ msgstr "Strefa czasowa"
+
+#~ msgid "Authentication Type:"
+#~ msgstr "Rodzaj uwierzytelniania:"
+
+#~ msgid "Keyboard layouts"
+#~ msgstr "Układy klawiatur"
+
+#~ msgid ""
+#~ "If TRUE, Sugar will show default Ad-hoc networks for channel 1,6 and 11. If "
+#~ "Sugar sees no \"known\" network when it starts, it does autoconnect to an Ad-"
+#~ "hoc network."
+#~ msgstr ""
+#~ "Jeżeli TAK, Sugar pokaże domyślne sieci ad-hoc dla kanałów 1,6 i 11. Jeżeli "
+#~ "Sugar nie będzie widział \"znanej\" sieci podczas startu systemu wtedy "
+#~ "automatycznie połączy się z siecią ad-hoc."
+
+#~ msgid "Default font face"
+#~ msgstr "Domyślna czcionka"
+
+#~ msgid "Show Log out"
+#~ msgstr "Pokaż \"Wyloguj się\""
+
+#~ msgid "Check your Pin/Puk configuration."
+#~ msgstr "Sprawdź konfigurację numerów PIN i PUK."
+
+#~ msgid "GSM network PUK"
+#~ msgstr "Kod PUK sieci GSM (karty SIM)"
+
+#~ msgid "Click to change color:"
+#~ msgstr "Kliknij aby zmienić kolor:"
+
+#~ msgid "Check your configuration."
+#~ msgstr "Sprawdź konfigurację (sieci)."
+
+#~ msgid "Error in specified argument use 0/1."
+#~ msgstr "Błąd w podanym argumencie, użyj 0/1."
+
+#~ msgid "Close"
+#~ msgstr "Zamknij"
+
+#~ msgid "Please wait..."
+#~ msgstr "Proszę czekać..."
+
+#~ msgid "GSM network username configuration"
+#~ msgstr "Konfiguracja nazwy użytkownika sieci GSM"
+
+#, python-format
+#~ msgid "%(hour)d:%(min).2d remaining"
+#~ msgstr "Pozostało %(hour)d:%(min).2d"
+
+#~ msgid ""
+#~ "Users will not be allowed to erase these activities through the list view."
+#~ msgstr "Użytkownicy nie będą mogli usunąć tych czynności z listy."
+
+#, python-format
+#~ msgid "IP address: %s"
+#~ msgstr "Adres IP: %s"
+
+#~ msgid "Wireless"
+#~ msgstr "Bezprzewodowy"
+
+#~ msgid "Make friend"
+#~ msgstr "Uczyń przyjacielem"
+
+#~ msgid "Error in specified color modifiers."
+#~ msgstr "Błąd w podanych kodach kolorów."
+
+#~ msgid "GSM network password configuration"
+#~ msgstr "Konfiguracja hasła sieci GSM"
+
+#~ msgid "Remove"
+#~ msgstr "Usuń"
+
+#~ msgid "If TRUE, Sugar will show a \"Restart\" option."
+#~ msgstr "Jeżeli TAK, Sugar pokaże opcję \"Restartuj\"."
+
+#~ msgid "About my Computer"
+#~ msgstr "O moim komputerze"
+
+#~ msgid "Directory to search for translations"
+#~ msgstr "Katalog, gdzie są szukane pliki tłumaczeń"

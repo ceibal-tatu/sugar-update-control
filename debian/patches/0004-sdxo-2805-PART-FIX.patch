@@ -1,0 +1,45 @@
+From 17fb306e0c8ec23c03961f56ec4378c91849a757 Mon Sep 17 00:00:00 2001
+From: Ajay Garg <ajay@activitycentral.com>
+Date: Thu, 20 Dec 2012 14:35:00 +0530
+Subject: [PATCH] sdxo#2805: [PART-FIX]
+Organization: Sugar Labs Foundation
+Signed-off-by: Ajay Garg <ajay@activitycentral.com>
+---
+ src/view.py | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/src/view.py b/src/view.py
+index 9513969..478013f 100755
+--- a/src/view.py
++++ b/src/view.py
+@@ -28,6 +28,7 @@ from sugar3.graphics import style
+ from jarabe.controlpanel.sectionview import SectionView
+ from jarabe.controlpanel.inlinealert import InlineAlert
+ from jarabe.model import bundleregistry
++from jarabe.view.buddymenu import get_control_panel
+ 
+ import model
+ from model import _humanize_size, _svg2pixbuf, inhibit_suspend
+@@ -481,6 +482,7 @@ class ActivityUpdater(SectionView):
+ 
+     def __init__(self, modelwrapper, alerts):
+         SectionView.__init__(self)
++        get_control_panel()._section_toolbar.cancel_button.hide()
+ 
+         bundleregistry.get_registry().disable_directory_monitoring()
+ 
+@@ -651,9 +653,11 @@ class ActivityUpdater(SectionView):
+ 
+     def perform_cancel_actions(self):
+         bundleregistry.get_registry().enable_directory_monitoring()
++        get_control_panel()._section_toolbar.cancel_button.show()
+ 
+     def perform_accept_actions(self):
+         bundleregistry.get_registry().enable_directory_monitoring()
++        get_control_panel()._section_toolbar.cancel_button.show()
+ 
+     def main(self):
+         """Start gtk main loop."""
+-- 
+1.7.11.7
+

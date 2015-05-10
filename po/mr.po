@@ -1,0 +1,230 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR One Laptop per Child Association, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-26 12:28-0400\n"
+"PO-Revision-Date: 2011-10-06 05:29+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: mr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#: ../src/__init__.py:22 ../src/view.py:58
+msgid "Software update"
+msgstr "सॉफ्टवेर आधुनीकिकरण"
+
+#: ../src/view.py:186
+msgid "_Uncheck All"
+msgstr "_सर्वखुणा काढुन टाका"
+
+#: ../src/view.py:192
+msgid "_Check All"
+msgstr "_सर्वखुणा करा"
+
+#: ../src/view.py:287
+msgid "Group URL:"
+msgstr "ग्रुप यु.आर.एल:"
+
+#. # expander/group list view at bottom
+#. special little extension to progress pane.
+#: ../src/view.py:357 ../src/view.py:532
+msgid "Modify activity groups"
+msgstr "क्रिया संघात बदल करा"
+
+#: ../src/view.py:381
+msgid "Install selected"
+msgstr "खुणा केलेले इंस्टॉल करा"
+
+#: ../src/view.py:401
+#, python-format
+msgid "Download size: %s"
+msgstr "डाउनलोड परीमाण: %s"
+
+#: ../src/view.py:434
+msgid "Try again"
+msgstr "पुन्हा प्रयत्न करा"
+
+#: ../src/view.py:466
+msgid "Cancelling..."
+msgstr "रद्द होत आहे..."
+
+#: ../src/view.py:484 ../src/view.py:510 ../src/view.py:601
+msgid "Checking for updates..."
+msgstr "आधुनिकिकरणाकरीता तपासत आहे..."
+
+#: ../src/view.py:488 ../src/view.py:552
+msgid "Starting download..."
+msgstr "डाउनलोड सुरु होत आहे..."
+
+#: ../src/view.py:515
+msgid ""
+"Software updates correct errors, eliminate security vulnerabilities, and "
+"provide new features."
+msgstr ""
+"सॉफ्टवेर आधुनीकिरण चुका सुधारतात, सेक्युरीटीमधे असलेल्या त्रुटी काढुन "
+"टाकतात, आणि नविन वैशिष्ट्ये देतात."
+
+#: ../src/view.py:550
+msgid "Downloading updates..."
+msgstr "अपडेटस डाउनलोड करत आहे..."
+
+#: ../src/view.py:573 ../src/model.py:841
+#, python-format
+msgid "Downloading %s..."
+msgstr "डाउनलोड चालू आहे: %s..."
+
+#: ../src/view.py:578 ../src/model.py:845
+#, python-format
+msgid "Examining %s..."
+msgstr "तपासत आहे %s..."
+
+#: ../src/view.py:581 ../src/model.py:850
+#, python-format
+msgid "Installing %s..."
+msgstr "इंस्टॉल करत आहे %s..."
+
+#: ../src/view.py:631
+msgid "Could not access the network"
+msgstr "नेटवर्क पर्यंत पोहचु शकत नाही"
+
+#: ../src/view.py:633
+msgid "Could not access the network to check for updates."
+msgstr "अपडेटस पाहण्यासाठी नेटवर्क पर्यंत पोहचु शकत नाही."
+
+#: ../src/view.py:638
+msgid "Your software is up-to-date"
+msgstr "तुमचे सॉफ्टवेर अद्यावत आहे"
+
+#: ../src/view.py:641
+#, python-format
+msgid "You can install %s update"
+msgid_plural "You can install %s updates"
+msgstr[0] "तुम्ही %s अपडेट करु शकता"
+msgstr[1] "तुम्ही %s अपडेटस करु शकता"
+
+#. TRANSLATORS: download size is 0
+#: ../src/model.py:63
+msgid "None"
+msgstr "काहीही नाही"
+
+#. TRANSLATORS: download size of very small updates
+#: ../src/model.py:66
+msgid "1 KB"
+msgstr "1 KB"
+
+#. TRANSLATORS: download size of small updates, e.g. "250 KB"
+#: ../src/model.py:69
+#, python-format
+msgid "%.0f KB"
+msgstr "%.0f KB"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../src/model.py:72
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#. find all activities already installed.
+#: ../src/model.py:259
+msgid "Looking for local activities and content..."
+msgstr "स्थानिक क्रिया आणि सारांश शोधत आहे..."
+
+#. enumerate all group urls
+#: ../src/model.py:262 ../src/model.py:272
+msgid "Loading groups..."
+msgstr "ग्रुपस लोड होत आहे..."
+
+#: ../src/model.py:282
+#, python-format
+msgid "Fetching %s..."
+msgstr "घेउन येत अहे %s..."
+
+#. add group header.
+#: ../src/model.py:300
+msgid "Activity Group"
+msgstr "क्रिया संघ"
+
+#: ../src/model.py:331
+msgid "Local activities"
+msgstr "स्थानिक क्रिया"
+
+#: ../src/model.py:398
+#, python-format
+msgid "At version %s"
+msgstr "ही आव्रुत्ती %s"
+
+#: ../src/model.py:401
+#, python-format
+#, python-format,
+msgid "From version %(old)s to %(new)s (Size: %(size)s)"
+msgstr "या आव्रुत्ती %(old)s ते %(new)s (परीमाण :%(size)s)"
+
+#: ../src/model.py:453
+#, python-format
+msgid "New version %(version)s (Size: %(size)s)"
+msgstr "नविन आव्रुत्ती %(version)s (परीमाण: %(size)s)"
+
+#: ../src/model.py:470
+#, python-format
+msgid "Checking %s..."
+msgstr "तपासत आहे %s..."
+
+#: ../src/model.py:611
+msgid "New group"
+msgstr "नवीन ग्रुप"
+
+#: ../src/model.py:776
+#, python-format
+msgid "%(number)d updates available.  Size: %(size)s"
+msgstr "%(number)d अपडेटस उपलब्ध आहे.  परीमान: %(size)s"
+
+#: ../src/model.py:783
+msgid "Setting the list of updates is not permitted."
+msgstr "अपडेटची यादि बनविण्यास परवानगी नाही."
+
+#. this func is needed to make the 'install_update' key show up for '-l'
+#: ../src/model.py:788
+msgid "Only the 'set' operation for this key is defined."
+msgstr "फक्त 'set' हीच क्रिया या कीसाठी बनविली आहे."
+
+#: ../src/model.py:801
+msgid "More than one match found for the given activity name or id."
+msgstr "दिलेल्या क्रियेसाठी एकाहुन अधीक जुळणारे शब्द मिळाले."
+
+#: ../src/model.py:803
+msgid "The given activity is already up-to-date."
+msgstr "दिलेली क्रिया हि अद्यावर आहे."
+
+#: ../src/model.py:828
+msgid "No activity found with the given name or id."
+msgstr "दिलेल्या नावाची क्रिया सापडली नाही."
+
+#: ../src/model.py:848
+#, python-format
+msgid "Upgrading %s..."
+msgstr "पुढील आव्रुत्ती बदलत आहे %s..."
+
+#: ../src/model.py:854
+#, python-format
+msgid "Error installing %s."
+msgstr "%s इंस्टॉल करण्यात चुक."

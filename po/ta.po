@@ -1,0 +1,234 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR One Laptop per Child Association, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-26 12:28-0400\n"
+"PO-Revision-Date: 2011-10-25 17:57+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#: ../src/__init__.py:22 ../src/view.py:58
+msgid "Software update"
+msgstr "மென்பொருள் இற்றைப்படுத்தல்"
+
+#: ../src/view.py:186
+msgid "_Uncheck All"
+msgstr "பரிசீலிக்கப்படாதவை"
+
+#: ../src/view.py:192
+msgid "_Check All"
+msgstr "அனைத்தையும் பரிசோதி"
+
+#: ../src/view.py:287
+msgid "Group URL:"
+msgstr "குழு URL:"
+
+#. # expander/group list view at bottom
+#. special little extension to progress pane.
+#: ../src/view.py:357 ../src/view.py:532
+msgid "Modify activity groups"
+msgstr "நவீன செயற்பாட்டுக் குழுக்கள்"
+
+#: ../src/view.py:381
+msgid "Install selected"
+msgstr "தெரிவு செய்தவற்றை உள்நிறுவுதல்"
+
+#: ../src/view.py:401
+#, python-format
+msgid "Download size: %s"
+msgstr "பதிவிறக்க அளவு: %s"
+
+#: ../src/view.py:434
+msgid "Try again"
+msgstr "மீண்டும் முயற்சி"
+
+#: ../src/view.py:466
+msgid "Cancelling..."
+msgstr "இரத்துசெய்..."
+
+#: ../src/view.py:484 ../src/view.py:510 ../src/view.py:601
+msgid "Checking for updates..."
+msgstr "இற்றைப்படுத்தலை பரிசோதி..."
+
+#: ../src/view.py:488 ../src/view.py:552
+msgid "Starting download..."
+msgstr "பதிவிறக்கத்தை தொடங்கு..."
+
+#: ../src/view.py:515
+msgid ""
+"Software updates correct errors, eliminate security vulnerabilities, and "
+"provide new features."
+msgstr ""
+"மென்பொருள் புதுப்பித்தலில் பிழைகளைத்திருத்தி,பாதுகாப்பினை "
+"ஒழித்து,சேதப்படத்தக்க,புதிய அம்சத்தை உருவாக்கு."
+
+#: ../src/view.py:550
+msgid "Downloading updates..."
+msgstr "பதிவிறக்கத்தை இற்றைப்படுத்து..."
+
+#: ../src/view.py:573 ../src/model.py:841
+#, python-format
+msgid "Downloading %s..."
+msgstr "பதிவிறக்கத்தை %s..."
+
+#: ../src/view.py:578 ../src/model.py:845
+#, python-format
+msgid "Examining %s..."
+msgstr "பரீட்சித்தல் %s..."
+
+#: ../src/view.py:581 ../src/model.py:850
+#, python-format
+msgid "Installing %s..."
+msgstr "%s.. உள்நிறுவுதல்..."
+
+#: ../src/view.py:631
+msgid "Could not access the network"
+msgstr "வலையமைப்பை அடையமுடியவில்லை"
+
+#: ../src/view.py:633
+msgid "Could not access the network to check for updates."
+msgstr "வலையமைப்பை அடையமுடியாதபட்சத்தில் பரீட்சித்து இற்றைப்படுத்து."
+
+#: ../src/view.py:638
+msgid "Your software is up-to-date"
+msgstr "உங்களுடைய மென்பொருள் சரியானது"
+
+#: ../src/view.py:641
+#, python-format
+msgid "You can install %s update"
+msgid_plural "You can install %s updates"
+msgstr[0] "நீங்கள் %s உள்நிறுவி இற்றைப்படுத்துக"
+msgstr[1] "நீங்கள் %s உள்நிறுவி இற்றைப்படுத்துக"
+
+#. TRANSLATORS: download size is 0
+#: ../src/model.py:63
+msgid "None"
+msgstr "ஒன்றுமில்லை"
+
+#. TRANSLATORS: download size of very small updates
+#: ../src/model.py:66
+msgid "1 KB"
+msgstr "1 KB"
+
+#. TRANSLATORS: download size of small updates, e.g. "250 KB"
+#: ../src/model.py:69
+#, python-format
+msgid "%.0f KB"
+msgstr "%.0f KB"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../src/model.py:72
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#. find all activities already installed.
+#: ../src/model.py:259
+msgid "Looking for local activities and content..."
+msgstr "உள்ளடக்கங்களையும் உள்ளகசெயற்பாடுகளையும் தேடல்..."
+
+#. enumerate all group urls
+#: ../src/model.py:262 ../src/model.py:272
+msgid "Loading groups..."
+msgstr "குழுக்களை ஏற்று..."
+
+#: ../src/model.py:282
+#, python-format
+msgid "Fetching %s..."
+msgstr "%s கொண்டுவருதல்..."
+
+#. add group header.
+#: ../src/model.py:300
+msgid "Activity Group"
+msgstr "செயற்பாட்டு குழுக்கள்"
+
+#: ../src/model.py:331
+msgid "Local activities"
+msgstr "உள்ளக செயற்பாடுகள்"
+
+#: ../src/model.py:398
+#, python-format
+msgid "At version %s"
+msgstr "%s பதி"
+
+#: ../src/model.py:401
+#, python-format
+#, python-format,
+msgid "From version %(old)s to %(new)s (Size: %(size)s)"
+msgstr "%(old)s இலிருந்து %(new)s வரை (அளவு: %(size)s)"
+
+#: ../src/model.py:453
+#, python-format
+#, python-format,
+msgid "New version %(version)s (Size: %(size)s)"
+msgstr "புதிய பதிப்பு %(version)s (அளவு: %(size)s)"
+
+#: ../src/model.py:470
+#, python-format
+msgid "Checking %s..."
+msgstr "%s சரிபார்த்தல்..."
+
+#: ../src/model.py:611
+msgid "New group"
+msgstr "புதிய குழு"
+
+#: ../src/model.py:776
+#, python-format
+#, python-format,
+msgid "%(number)d updates available.  Size: %(size)s"
+msgstr "%(number)d கிடைத்தவற்றை இற்றைப்படுத்து. அளவு: %(size)s"
+
+#: ../src/model.py:783
+msgid "Setting the list of updates is not permitted."
+msgstr "பட்டியலை ஒழுங்குப்படுத்தும்போது இற்றைப்படுத்தலுக்கு அனுமதியில்லை."
+
+#. this func is needed to make the 'install_update' key show up for '-l'
+#: ../src/model.py:788
+msgid "Only the 'set' operation for this key is defined."
+msgstr "தொகுதி நடவடிக்கைக்கு இந்த சாவி தடையாக உள்ளது."
+
+#: ../src/model.py:801
+msgid "More than one match found for the given activity name or id."
+msgstr ""
+"கொடுக்கப்பட்ட செயற்பாட்டிற்கு ஒன்றுக்கு மேற்பட்ட பொருத்தமான பெயரினை "
+"அடையாளப்படுத்துக."
+
+#: ../src/model.py:803
+msgid "The given activity is already up-to-date."
+msgstr "கொடுக்கப்பட்ட செயற்பாடு ஏற்கனவே இற்றைப்படுத்தப்பட்டுள்ளது."
+
+#: ../src/model.py:828
+msgid "No activity found with the given name or id."
+msgstr "கொடுக்கப்பட்ட பெயர்களில் கண்டுபிடிப்பதற்கான செயற்பாடுகள் இல்லை."
+
+#: ../src/model.py:848
+#, python-format
+msgid "Upgrading %s..."
+msgstr "%s தரமுயர்த்து..."
+
+#: ../src/model.py:854
+#, python-format
+msgid "Error installing %s."
+msgstr "%s உள்நிறுவுவதில் தவறு."

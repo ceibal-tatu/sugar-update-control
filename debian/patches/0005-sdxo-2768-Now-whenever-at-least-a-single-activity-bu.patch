@@ -1,0 +1,27 @@
+From 030331717d623b4a56a941543e26dae86823c99a Mon Sep 17 00:00:00 2001
+From: Ajay Garg <ajay@activitycentral.com>
+Date: Thu, 20 Dec 2012 14:52:38 +0530
+Subject: [PATCH] sdxo#2768: Now, whenever at least a single activity/bundle
+                            is installed/upgraded, the "Restart" notification options
+			    are shown.
+Organization: Sugar Labs Foundation
+Signed-off-by: Ajay Garg <ajay@activitycentral.com>
+---
+ src/view.py | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/view.py b/src/view.py
+index 478013f..45df197 100755
+--- a/src/view.py
++++ b/src/view.py
+@@ -533,6 +533,7 @@ class ActivityUpdater(SectionView):
+ 
+     def install_cb(self, registry, bundle, event):
+         bundle.install_or_upgrade(registry)
++        self.needs_restart = True
+         event.set()
+         return False
+ 
+-- 
+1.7.11.7
+

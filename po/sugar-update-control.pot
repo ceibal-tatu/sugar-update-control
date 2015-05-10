@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-29 03:07+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ../src/__init__.py:22 ../src/view.py:39
+msgid "Software update"
+msgstr ""
+
+#: ../src/view.py:168
+msgid "_Uncheck All"
+msgstr ""
+
+#: ../src/view.py:174
+msgid "_Check All"
+msgstr ""
+
+#: ../src/view.py:271
+msgid "Group URL:"
+msgstr ""
+
+#. # expander/group list view at bottom
+#. special little extension to progress pane.
+#: ../src/view.py:341 ../src/view.py:520
+msgid "Modify activity groups"
+msgstr ""
+
+#: ../src/view.py:365
+msgid "Install selected"
+msgstr ""
+
+#: ../src/view.py:385
+#, python-format
+msgid "Download size: %s"
+msgstr ""
+
+#: ../src/view.py:418
+msgid "Try again"
+msgstr ""
+
+#: ../src/view.py:450
+msgid "Cancelling..."
+msgstr ""
+
+#: ../src/view.py:468 ../src/view.py:498 ../src/view.py:597
+msgid "Checking for updates..."
+msgstr ""
+
+#: ../src/view.py:472 ../src/view.py:546
+msgid "Starting download..."
+msgstr ""
+
+#: ../src/view.py:503
+msgid ""
+"Software updates correct errors, eliminate security vulnerabilities, and "
+"provide new features."
+msgstr ""
+
+#: ../src/view.py:544
+msgid "Downloading updates..."
+msgstr ""
+
+#: ../src/view.py:565 ../src/model.py:848
+#, python-format
+msgid "Downloading %s..."
+msgstr ""
+
+#: ../src/view.py:570 ../src/model.py:852
+#, python-format
+msgid "Examining %s..."
+msgstr ""
+
+#: ../src/view.py:573 ../src/model.py:857
+#, python-format
+msgid "Installing %s..."
+msgstr ""
+
+#: ../src/view.py:627
+msgid "Could not access the network"
+msgstr ""
+
+#: ../src/view.py:629
+msgid "Could not access the network to check for updates."
+msgstr ""
+
+#: ../src/view.py:634
+msgid "Your software is up-to-date"
+msgstr ""
+
+#: ../src/view.py:637
+#, python-format
+msgid "You can install %s update"
+msgid_plural "You can install %s updates"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: download size is 0
+#: ../src/model.py:65
+msgid "None"
+msgstr ""
+
+#. TRANSLATORS: download size of very small updates
+#: ../src/model.py:68
+msgid "1 KB"
+msgstr ""
+
+#. TRANSLATORS: download size of small updates, e.g. "250 KB"
+#: ../src/model.py:71
+#, python-format
+msgid "%.0f KB"
+msgstr ""
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../src/model.py:74
+#, python-format
+msgid "%.1f MB"
+msgstr ""
+
+#. find all activities already installed.
+#: ../src/model.py:261
+msgid "Looking for local activities and content..."
+msgstr ""
+
+#. enumerate all group urls
+#: ../src/model.py:264 ../src/model.py:274
+msgid "Loading groups..."
+msgstr ""
+
+#: ../src/model.py:284
+#, python-format
+msgid "Fetching %s..."
+msgstr ""
+
+#. add group header.
+#: ../src/model.py:302
+msgid "Activity Group"
+msgstr ""
+
+#: ../src/model.py:333
+msgid "Local activities"
+msgstr ""
+
+#: ../src/model.py:400
+#, python-format
+msgid "At version %s"
+msgstr ""
+
+#: ../src/model.py:403
+#, python-format
+msgid "From version %(old)s to %(new)s (Size: %(size)s)"
+msgstr ""
+
+#: ../src/model.py:460
+#, python-format
+msgid "New version %(version)s (Size: %(size)s)"
+msgstr ""
+
+#: ../src/model.py:477
+#, python-format
+msgid "Checking %s..."
+msgstr ""
+
+#: ../src/model.py:618
+msgid "New group"
+msgstr ""
+
+#: ../src/model.py:783
+#, python-format
+msgid "%(number)d updates available.  Size: %(size)s"
+msgstr ""
+
+#: ../src/model.py:790
+msgid "Setting the list of updates is not permitted."
+msgstr ""
+
+#. this func is needed to make the 'install_update' key show up for '-l'
+#: ../src/model.py:795
+msgid "Only the 'set' operation for this key is defined."
+msgstr ""
+
+#: ../src/model.py:808
+msgid "More than one match found for the given activity name or id."
+msgstr ""
+
+#: ../src/model.py:810
+msgid "The given activity is already up-to-date."
+msgstr ""
+
+#: ../src/model.py:835
+msgid "No activity found with the given name or id."
+msgstr ""
+
+#: ../src/model.py:855
+#, python-format
+msgid "Upgrading %s..."
+msgstr ""
+
+#: ../src/model.py:861
+#, python-format
+msgid "Error installing %s."
+msgstr ""

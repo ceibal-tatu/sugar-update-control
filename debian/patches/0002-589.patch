@@ -1,0 +1,38 @@
+diff --git a/src/view.py b/src/view.py
+index 11c9f78..e246a6a 100755
+--- a/src/view.py
++++ b/src/view.py
+@@ -25,6 +25,7 @@ from sugar.graphics import style
+ 
+ from jarabe.controlpanel.sectionview import SectionView
+ from jarabe.controlpanel.inlinealert import InlineAlert
++from jarabe.model import bundleregistry
+ 
+ import model
+ from model import _humanize_size, _svg2pixbuf, inhibit_suspend
+@@ -498,6 +499,9 @@ class ActivityUpdater(SectionView):
+ 
+     def __init__(self, modelwrapper, alerts):
+         SectionView.__init__(self)
++
++        bundleregistry.get_registry().disable_directory_monitoring()
++
+         self._in_sugar = (modelwrapper is not None)
+         self.set_spacing(style.DEFAULT_SPACING)
+         self.set_border_width(style.DEFAULT_SPACING * 2)
+@@ -657,6 +661,12 @@ class ActivityUpdater(SectionView):
+     def destroy(self, widget, data=None):
+         gtk.main_quit()
+ 
++    def perform_cancel_actions(self):
++        bundleregistry.get_registry().enable_directory_monitoring()
++
++    def perform_accept_actions(self):
++        bundleregistry.get_registry().enable_directory_monitoring()
++
+     def main(self):
+         """Start gtk main loop."""
+         gtk.main()
+-- 
+1.7.4.4
+

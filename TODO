@@ -1,0 +1,32 @@
+* Popup alert when downloads fail.
+* Popup alert when activity installation fails.
+* Activity pinning: add support in microformat for a 'pin' property,
+  and forbid upgrades past that point (if a group file so marks it)
+* Use different URL for default G1G1 group?
+  (check whether current URL can be protected in the wiki)
+* Add url/zipfile support for sugar.bundle.
+* Fix sugar.bundle's uninstall() method so that it doesn't assume that
+  current bundle's install dir is the same as the previous one's.
+  It should also rename the dir to allow for different versions of the
+  same activity to be resident. (dlo trac #7494)
+* Add support for base OS upgrades
+* Add support for library content bundles.
+* Add support for language packs?
+* Translations!
+* Automatically open this control panel on first-boot of a new base OS.
+  (dlo trac #7495)
+* Be careful about caching large files in urlrange, since the cache is
+  in memory (/tmp, a tmpfs).
+* check network connection, and wait if first-boot open. (trac #7947)
+* display alert if 'some network operations failed'
+* display alert if installation failed, and some way to find out how/why
+  or which.  (maybe turn the checkbox into an exclamation mark by the
+  side of the failing activities and disable them?)
+* proxy support?  See site-packages/wikipediafs/http.py and the environment
+  variables in 'info wget' search for http_proxy.
+* better interrupt/timeout support in http connection: currently we have
+  to wait until a chunk of 64k bytes has downloaded, and if the connection
+  is slow or hung, this can take a while.
+* support library bundles
+* fix translation domain
+* track down X crash?

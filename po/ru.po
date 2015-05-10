@@ -1,0 +1,232 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR One Laptop per Child Association, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-26 12:28-0400\n"
+"PO-Revision-Date: 2011-11-08 09:58+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#: ../src/__init__.py:22 ../src/view.py:58
+msgid "Software update"
+msgstr "Обновление программ"
+
+#: ../src/view.py:186
+msgid "_Uncheck All"
+msgstr "Снять выделение"
+
+#: ../src/view.py:192
+msgid "_Check All"
+msgstr "Выбрать все"
+
+#: ../src/view.py:287
+msgid "Group URL:"
+msgstr "Групповой адрес:"
+
+#. # expander/group list view at bottom
+#. special little extension to progress pane.
+#: ../src/view.py:357 ../src/view.py:532
+msgid "Modify activity groups"
+msgstr "Изменить групппы Активностей"
+
+#: ../src/view.py:381
+msgid "Install selected"
+msgstr "Установить выбранное"
+
+#: ../src/view.py:401
+#, python-format
+msgid "Download size: %s"
+msgstr "Размер для скачивания: %s"
+
+#: ../src/view.py:434
+msgid "Try again"
+msgstr "Попробуйте еще раз"
+
+#: ../src/view.py:466
+msgid "Cancelling..."
+msgstr "Отмена..."
+
+#: ../src/view.py:484 ../src/view.py:510 ../src/view.py:601
+msgid "Checking for updates..."
+msgstr "Проверить обновления..."
+
+#: ../src/view.py:488 ../src/view.py:552
+msgid "Starting download..."
+msgstr "Начинаю загрузку..."
+
+#: ../src/view.py:515
+msgid ""
+"Software updates correct errors, eliminate security vulnerabilities, and "
+"provide new features."
+msgstr ""
+"Обновление ПО позволяет исправить ошибки, удалить уязвимые места в системе "
+"безопастности, а также добавляет новые возможности."
+
+#: ../src/view.py:550
+msgid "Downloading updates..."
+msgstr "Загружаю обновления..."
+
+#: ../src/view.py:573 ../src/model.py:841
+#, python-format
+msgid "Downloading %s..."
+msgstr "Загружено %s..."
+
+#: ../src/view.py:578 ../src/model.py:845
+#, python-format
+msgid "Examining %s..."
+msgstr "Проверено %s..."
+
+#: ../src/view.py:581 ../src/model.py:850
+#, python-format
+msgid "Installing %s..."
+msgstr "Установлено %s..."
+
+#: ../src/view.py:631
+msgid "Could not access the network"
+msgstr "Не удается установить соединение с сетью"
+
+#: ../src/view.py:633
+msgid "Could not access the network to check for updates."
+msgstr "Не удается установить соединение с сетью для проверки обновлений."
+
+#: ../src/view.py:638
+msgid "Your software is up-to-date"
+msgstr "Ваши программы обновлены"
+
+#: ../src/view.py:641
+#, python-format
+msgid "You can install %s update"
+msgid_plural "You can install %s updates"
+msgstr[0] "Вы можете установить %s обновление"
+msgstr[1] "Вы можете установить %s обновления"
+msgstr[2] "Вы можете установить %s обновлений"
+
+#. TRANSLATORS: download size is 0
+#: ../src/model.py:63
+msgid "None"
+msgstr "Ничего"
+
+#. TRANSLATORS: download size of very small updates
+#: ../src/model.py:66
+msgid "1 KB"
+msgstr "1 KB"
+
+#. TRANSLATORS: download size of small updates, e.g. "250 KB"
+#: ../src/model.py:69
+#, python-format
+msgid "%.0f KB"
+msgstr "%.0f KB"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../src/model.py:72
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#. find all activities already installed.
+#: ../src/model.py:259
+msgid "Looking for local activities and content..."
+msgstr "Производится поиск локально установленных Активностей и контента..."
+
+#. enumerate all group urls
+#: ../src/model.py:262 ../src/model.py:272
+msgid "Loading groups..."
+msgstr "Загружаются группы..."
+
+#: ../src/model.py:282
+#, python-format
+msgid "Fetching %s..."
+msgstr "извлечено %s..."
+
+#. add group header.
+#: ../src/model.py:300
+msgid "Activity Group"
+msgstr "Группа Активностей"
+
+#: ../src/model.py:331
+msgid "Local activities"
+msgstr "Установленные локально Активности"
+
+#: ../src/model.py:398
+#, python-format
+msgid "At version %s"
+msgstr "В версии %s"
+
+#: ../src/model.py:401
+#, python-format
+#, python-format,
+msgid "From version %(old)s to %(new)s (Size: %(size)s)"
+msgstr "С версии %(old)s to %(new)s (Размер: %(size)s)"
+
+#: ../src/model.py:453
+#, python-format
+msgid "New version %(version)s (Size: %(size)s)"
+msgstr "Новая версия %(version)s (Размер: %(size)s)"
+
+#: ../src/model.py:470
+#, python-format
+msgid "Checking %s..."
+msgstr "Проверено %s..."
+
+#: ../src/model.py:611
+msgid "New group"
+msgstr "Новая группа"
+
+#: ../src/model.py:776
+#, python-format
+msgid "%(number)d updates available.  Size: %(size)s"
+msgstr "%(number)d обновлений доступно  Размер: %(size)s"
+
+#: ../src/model.py:783
+msgid "Setting the list of updates is not permitted."
+msgstr "Выбор списка обновлений не доступен."
+
+#. this func is needed to make the 'install_update' key show up for '-l'
+#: ../src/model.py:788
+msgid "Only the 'set' operation for this key is defined."
+msgstr "Для этого ключа определена только операция выбора."
+
+#: ../src/model.py:801
+msgid "More than one match found for the given activity name or id."
+msgstr "Для Активности с выбранным именем нашлось более чем одно соответствие."
+
+#: ../src/model.py:803
+msgid "The given activity is already up-to-date."
+msgstr "Выбранная Активность уже обновлена до последней версии."
+
+#: ../src/model.py:828
+msgid "No activity found with the given name or id."
+msgstr "Не найдено Активностей с заданным именем или идентификатором."
+
+#: ../src/model.py:848
+#, python-format
+msgid "Upgrading %s..."
+msgstr "Обновлено %s..."
+
+#: ../src/model.py:854
+#, python-format
+msgid "Error installing %s."
+msgstr "Ошибка в установке %s."

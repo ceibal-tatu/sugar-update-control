@@ -1,0 +1,216 @@
+# Copyright (C) YEAR One Laptop per Child Association, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Chris Leonard <cjl@laptop.org>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-26 12:28-0400\n"
+"PO-Revision-Date: 2012-01-14 23:33+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: Sugar Labs\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#: ../src/__init__.py:22 ../src/view.py:58
+msgid "Software update"
+msgstr "ធ្វើសុសវ៉ែរ​អោយ​ទាន់សម័យ"
+
+#: ../src/view.py:186
+msgid "_Uncheck All"
+msgstr "_មិន​ត្រួតពិនិត្យទាំងអស់"
+
+#: ../src/view.py:192
+msgid "_Check All"
+msgstr "_ត្រួតពិនិត្យទាំងអស់"
+
+#: ../src/view.py:287
+msgid "Group URL:"
+msgstr "ក្រុម URL ៖"
+
+#. # expander/group list view at bottom
+#. special little extension to progress pane.
+#: ../src/view.py:357 ../src/view.py:532
+msgid "Modify activity groups"
+msgstr "សកម្មភាព​ក្រុម​កែតំរូវ"
+
+#: ../src/view.py:381
+msgid "Install selected"
+msgstr "បានជ្រើសរើសដល់ការតំឡើង"
+
+#: ../src/view.py:401
+#, python-format
+msgid "Download size: %s"
+msgstr "ទំហំ​ទាញ​យក ៖ %s"
+
+#: ../src/view.py:434
+msgid "Try again"
+msgstr "ព្យាយាមប្តងទៀត"
+
+#: ../src/view.py:466
+msgid "Cancelling..."
+msgstr "ការបោះបង់..."
+
+#: ../src/view.py:484 ../src/view.py:510 ../src/view.py:601
+msgid "Checking for updates..."
+msgstr "ពិនិត្យមើលដើម្បីអោយទាន់សម័យ..."
+
+#: ../src/view.py:488 ../src/view.py:552
+msgid "Starting download..."
+msgstr "កំពង់ចាប់ផ្តើមទាញយក..."
+
+#: ../src/view.py:515
+msgid ""
+"Software updates correct errors, eliminate security vulnerabilities, and "
+"provide new features."
+msgstr ""
+"កែ​កំហុស​សុសវែរ​អោយ​ទាន់សម័យ កាត់​ចោល​នូវ​កា​ខ្វះខាត​​កំហុស​សន្តិសុខ និង "
+"ផ្តល់​ជូន​លក្ខណៈ​ថ្មីៗ"
+
+#: ../src/view.py:550
+msgid "Downloading updates..."
+msgstr "កំពុងទាញយកអោយទាន់សម័យ..."
+
+#: ../src/view.py:573 ../src/model.py:841
+#, python-format
+msgid "Downloading %s..."
+msgstr "កំពុងទាញយក %s..."
+
+#: ../src/view.py:578 ../src/model.py:845
+#, python-format
+msgid "Examining %s..."
+msgstr "ដែលកំពុងពិនិត្យ %s..."
+
+#: ../src/view.py:581 ../src/model.py:850
+#, python-format
+msgid "Installing %s..."
+msgstr "កំបុងតំលើង %s..."
+
+#: ../src/view.py:631
+msgid "Could not access the network"
+msgstr "មិនអាចចូលទៅក្នុងបណ្តាញ"
+
+#: ../src/view.py:633
+msgid "Could not access the network to check for updates."
+msgstr "មិនអាចចូលទៅក្នុងបណ្តាញដល់ការពិនិត្យមើលនូវភាពទាន់សម័យ"
+
+#: ../src/view.py:638
+msgid "Your software is up-to-date"
+msgstr "សុសវែររបស់អ្នកគឺទាន់សម័យ"
+
+#: ../src/view.py:641
+#, python-format
+msgid "You can install %s update"
+msgid_plural "You can install %s updates"
+msgstr[0] "អ្នកអាចតំឡើង %s អោយទានសម័យ"
+
+#. TRANSLATORS: download size is 0
+#: ../src/model.py:63
+msgid "None"
+msgstr "គ្មានអ្នកណា"
+
+#. TRANSLATORS: download size of very small updates
+#: ../src/model.py:66
+msgid "1 KB"
+msgstr "១KB"
+
+#. TRANSLATORS: download size of small updates, e.g. "250 KB"
+#: ../src/model.py:69
+#, python-format
+msgid "%.0f KB"
+msgstr "%.0f KB"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../src/model.py:72
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#. find all activities already installed.
+#: ../src/model.py:259
+msgid "Looking for local activities and content..."
+msgstr "រកមើលសកម្មភាពនិងមាតិកានៅមូលដ្ឋាន..."
+
+#. enumerate all group urls
+#: ../src/model.py:262 ../src/model.py:272
+msgid "Loading groups..."
+msgstr "ក្រុមទាញយក..."
+
+#: ../src/model.py:282
+#, python-format
+msgid "Fetching %s..."
+msgstr "ជា​ផ្នែក​មួយ %s..."
+
+#. add group header.
+#: ../src/model.py:300
+msgid "Activity Group"
+msgstr "ក្រុមសកម្មភាព"
+
+#: ../src/model.py:331
+msgid "Local activities"
+msgstr "សកម្មភាពមូលដ្ឋាន"
+
+#: ../src/model.py:398
+#, python-format
+msgid "At version %s"
+msgstr "នូវកំណែ %s"
+
+#: ../src/model.py:401
+#, python-format
+#, python-format, 
+msgid "From version %(old)s to %(new)s (Size: %(size)s)"
+msgstr "ពីកំណែ %(old)s ទៅ %(new)s (ទំហំ %(size)s)"
+
+#: ../src/model.py:453
+#, python-format
+msgid "New version %(version)s (Size: %(size)s)"
+msgstr "កំណែថ្មី %(version)s (ទំហំ %(size)s)"
+
+#: ../src/model.py:470
+#, python-format
+msgid "Checking %s..."
+msgstr "ពិនិត្យមើល %s..."
+
+#: ../src/model.py:611
+msgid "New group"
+msgstr "ក្រុមថ្មី"
+
+#: ../src/model.py:776
+#, python-format
+msgid "%(number)d updates available.  Size: %(size)s"
+msgstr "%(number)d ដែលអាចរិកបានទានសម័យ  ទមហំ: %(size)s"
+
+#: ../src/model.py:783
+msgid "Setting the list of updates is not permitted."
+msgstr "មិនអនុញ្ញតិអោយរៀងបំតារាងបញ្ជីទានសម័យទេ"
+
+#. this func is needed to make the 'install_update' key show up for '-l'
+#: ../src/model.py:788
+msgid "Only the 'set' operation for this key is defined."
+msgstr "កំណត់​គន្លឹះ​តែ​មួយ​គត់​ដែល​កំណត់​ដល់​ការ​ប្រតិបត្តិការ"
+
+#: ../src/model.py:801
+msgid "More than one match found for the given activity name or id."
+msgstr "មានច្រើនជាងមួយដែលបានរកឃើញបានផ្តល់អោយឈ្មោះឬអត្តសញ្ញាណសកម្មភាព"
+
+#: ../src/model.py:803
+msgid "The given activity is already up-to-date."
+msgstr "បានផ្តល់សកម្មភាពទាន់សម័យរួចហើយ"
+
+#: ../src/model.py:828
+msgid "No activity found with the given name or id."
+msgstr "រកមិនឃើញឈ្មោះឬអត្តសញ្ញានសកម្មភាព"
+
+#: ../src/model.py:848
+#, python-format
+msgid "Upgrading %s..."
+msgstr "កំពុងទាញយក %s..."
+
+#: ../src/model.py:854
+#, python-format
+msgid "Error installing %s."
+msgstr "មានកំហុសក្នុងការតំឡើង %s."

@@ -1,0 +1,230 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR One Laptop per Child Association, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-26 12:28-0400\n"
+"PO-Revision-Date: 2011-11-03 08:05+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#: ../src/__init__.py:22 ../src/view.py:58
+msgid "Software update"
+msgstr "Kemaskini perisian"
+
+#: ../src/view.py:186
+msgid "_Uncheck All"
+msgstr "_Tidak Pilih Semua"
+
+#: ../src/view.py:192
+msgid "_Check All"
+msgstr "_Pilih Semua"
+
+# PSS is Pelokasi Sumber Seragam
+#: ../src/view.py:287
+msgid "Group URL:"
+msgstr "Kumpulan URL:"
+
+#. # expander/group list view at bottom
+#. special little extension to progress pane.
+#: ../src/view.py:357 ../src/view.py:532
+msgid "Modify activity groups"
+msgstr "Ubahsuai kumpulan-kumpulan aktiviti"
+
+#: ../src/view.py:381
+msgid "Install selected"
+msgstr "Pasang yang dipilih"
+
+#: ../src/view.py:401
+#, python-format
+msgid "Download size: %s"
+msgstr "Saiz muat turun: %s"
+
+#: ../src/view.py:434
+msgid "Try again"
+msgstr "Cuba semula"
+
+#: ../src/view.py:466
+msgid "Cancelling..."
+msgstr "Membatalkan..."
+
+#: ../src/view.py:484 ../src/view.py:510 ../src/view.py:601
+msgid "Checking for updates..."
+msgstr "Pengemaskinian dalam penyemakan..."
+
+#: ../src/view.py:488 ../src/view.py:552
+msgid "Starting download..."
+msgstr "Mula memuat turun..."
+
+#: ../src/view.py:515
+msgid ""
+"Software updates correct errors, eliminate security vulnerabilities, and "
+"provide new features."
+msgstr ""
+"Pengemaskinian perisian membetulkan ralat, menghapuskan ancaman keselamtan "
+"dan menyediakan ciri-ciri baru."
+
+#: ../src/view.py:550
+msgid "Downloading updates..."
+msgstr "Muat turun pengemaskinian..."
+
+#: ../src/view.py:573 ../src/model.py:841
+#, python-format
+msgid "Downloading %s..."
+msgstr "Memuat turun %s..."
+
+#: ../src/view.py:578 ../src/model.py:845
+#, python-format
+msgid "Examining %s..."
+msgstr "Memeriksa %s..."
+
+#: ../src/view.py:581 ../src/model.py:850
+#, python-format
+msgid "Installing %s..."
+msgstr "Memasang %s..."
+
+#: ../src/view.py:631
+msgid "Could not access the network"
+msgstr "Tidak boleh mengakses rangkaian"
+
+#: ../src/view.py:633
+msgid "Could not access the network to check for updates."
+msgstr "Tidak boleh mengakses rangkaian untuk menyemak pengemaskinian."
+
+#: ../src/view.py:638
+msgid "Your software is up-to-date"
+msgstr "Perisian anda adalah yang mutakhir"
+
+#: ../src/view.py:641
+#, python-format
+msgid "You can install %s update"
+msgid_plural "You can install %s updates"
+msgstr[0] "Anda boleh memasang %s pengemaskinian"
+
+#. TRANSLATORS: download size is 0
+#: ../src/model.py:63
+msgid "None"
+msgstr "Semua tiada"
+
+#. TRANSLATORS: download size of very small updates
+#: ../src/model.py:66
+msgid "1 KB"
+msgstr "1 KB"
+
+#. TRANSLATORS: download size of small updates, e.g. "250 KB"
+#: ../src/model.py:69
+#, python-format
+msgid "%.0f KB"
+msgstr "%.0f KB"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../src/model.py:72
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#. find all activities already installed.
+#: ../src/model.py:259
+msgid "Looking for local activities and content..."
+msgstr "Mecari aktiviti dan isian setempat..."
+
+#. enumerate all group urls
+#: ../src/model.py:262 ../src/model.py:272
+msgid "Loading groups..."
+msgstr "Memuat kumpulan..."
+
+#: ../src/model.py:282
+#, python-format
+msgid "Fetching %s..."
+msgstr "Pengambilan %s..."
+
+#. add group header.
+#: ../src/model.py:300
+msgid "Activity Group"
+msgstr "Aktiviti Kumpulan"
+
+#: ../src/model.py:331
+msgid "Local activities"
+msgstr "Aktiviti setempat"
+
+#: ../src/model.py:398
+#, python-format
+msgid "At version %s"
+msgstr "Pada versi %s"
+
+#: ../src/model.py:401
+#, python-format
+#, python-format,
+msgid "From version %(old)s to %(new)s (Size: %(size)s)"
+msgstr "Dari versi %(old)s kepada %(new)s (Saiz: %(size)s)"
+
+#: ../src/model.py:453
+#, python-format
+msgid "New version %(version)s (Size: %(size)s)"
+msgstr "Versi baru %(version)s (Saiz: %(size)s)"
+
+#: ../src/model.py:470
+#, python-format
+msgid "Checking %s..."
+msgstr "Menyemak %s..."
+
+#: ../src/model.py:611
+msgid "New group"
+msgstr "Kumpulan baru"
+
+#: ../src/model.py:776
+#, python-format
+msgid "%(number)d updates available.  Size: %(size)s"
+msgstr "%(number)d pengemaskinian yang ada.  Saiz: %(size)s"
+
+#: ../src/model.py:783
+msgid "Setting the list of updates is not permitted."
+msgstr "Penyusunan senarai pengemaskinian tidak dibenarkan."
+
+#. this func is needed to make the 'install_update' key show up for '-l'
+#: ../src/model.py:788
+msgid "Only the 'set' operation for this key is defined."
+msgstr "Hanya operasi 'set' bagi kekunci ini telah didefinasikan."
+
+#: ../src/model.py:801
+msgid "More than one match found for the given activity name or id."
+msgstr "Lebih dari satu padanan bagi nama atau id aktiviti berkenaan."
+
+#: ../src/model.py:803
+msgid "The given activity is already up-to-date."
+msgstr "Aktiviti berkenaan adalah yang mutakhir."
+
+#: ../src/model.py:828
+msgid "No activity found with the given name or id."
+msgstr "Tiada aktiviti yang dijumpai dengan nama atau id berkenaan."
+
+#: ../src/model.py:848
+#, python-format
+msgid "Upgrading %s..."
+msgstr "Menaik taraf %s..."
+
+#: ../src/model.py:854
+#, python-format
+msgid "Error installing %s."
+msgstr "Ralat memasang %s."

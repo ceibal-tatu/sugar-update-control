@@ -1,0 +1,255 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR One Laptop per Child Association, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-26 12:28-0400\n"
+"PO-Revision-Date: 2012-06-23 19:22+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#: ../src/__init__.py:22 ../src/view.py:58
+#, fuzzy
+msgid "Software update"
+msgstr "సాఫ్ట్వేర్ ఉనతికరణ"
+
+#: ../src/view.py:186
+#, fuzzy
+msgid "_Uncheck All"
+msgstr "అన్ని ఎంపిక చెయ్యబడలేదు"
+
+#: ../src/view.py:192
+#, fuzzy
+msgid "_Check All"
+msgstr "అన్నీ చెక్"
+
+#: ../src/view.py:287
+#, fuzzy
+msgid "Group URL:"
+msgstr "సమూహం url"
+
+#. # expander/group list view at bottom
+#. special little extension to progress pane.
+#: ../src/view.py:357 ../src/view.py:532
+#, fuzzy
+msgid "Modify activity groups"
+msgstr "చర్య సమూహాలు సవరించడానికి"
+
+#: ../src/view.py:381
+#, fuzzy
+msgid "Install selected"
+msgstr "ఇన్స్టాల్ ఎంపిక"
+
+#: ../src/view.py:401
+#, python-format, fuzzy
+msgid "Download size: %s"
+msgstr "పరిమాణం% స  డౌన్లోడ్"
+
+#: ../src/view.py:434
+#, fuzzy
+msgid "Try again"
+msgstr "మళ్ళీ ప్రయత్నించండి"
+
+#: ../src/view.py:466
+#, fuzzy
+msgid "Cancelling..."
+msgstr "రద్దు"
+
+#: ../src/view.py:484 ../src/view.py:510 ../src/view.py:601
+#, fuzzy
+msgid "Checking for updates..."
+msgstr "అప్డేట్ల కోసం తనిఖీ"
+
+#: ../src/view.py:488 ../src/view.py:552
+#, fuzzy
+msgid "Starting download..."
+msgstr "డౌన్లోడ్ ప్రారంభించేటప్పుడు"
+
+#: ../src/view.py:515
+#, fuzzy
+msgid ""
+"Software updates correct errors, eliminate security vulnerabilities, and "
+"provide new features."
+msgstr ""
+"సాఫ్ట్వేర్ నవీకరణలు సరైన లోపాలు, భద్రతా వలయాలను తొలగించడానికి, మరియు కొత్త "
+"ఫీచర్లను అందిస్తాయి."
+
+#: ../src/view.py:550
+#, fuzzy
+msgid "Downloading updates..."
+msgstr "డౌన్లోడ్ అప్డేట్లను ..."
+
+#: ../src/view.py:573 ../src/model.py:841
+#, python-format, fuzzy
+msgid "Downloading %s..."
+msgstr "% స  డౌన్లోడ్ చేస్తోంది ..."
+
+#: ../src/view.py:578 ../src/model.py:845
+#, python-format, fuzzy
+msgid "Examining %s..."
+msgstr "% స  పరిశీలిస్తోంది ..."
+
+#: ../src/view.py:581 ../src/model.py:850
+#, python-format, fuzzy
+msgid "Installing %s..."
+msgstr "% స  సంస్థాపిస్తోంది ..."
+
+#: ../src/view.py:631
+#, fuzzy
+msgid "Could not access the network"
+msgstr "నెట్వర్క్ ఆక్సెస్ కాలేదు"
+
+#: ../src/view.py:633
+#, fuzzy
+msgid "Could not access the network to check for updates."
+msgstr "అప్డేట్ల కోసం తనిఖీ నెట్వర్క్ ఆక్సెస్ కాలేదు."
+
+#: ../src/view.py:638
+#, fuzzy
+msgid "Your software is up-to-date"
+msgstr "మీ సాఫ్ట్వేర్ నవీనమైన ఉంది"
+
+#: ../src/view.py:641
+#, python-format, fuzzy
+msgid "You can install %s update"
+msgid_plural "You can install %s updates"
+msgstr[0] "మీరు% స  నవీకరణ ఇన్స్టాల్ చేయవచ్చు"
+msgstr[1] "మీరు% స  నవీకరణలను ఇన్స్టాల్ చెయ్యవచ్చు."
+
+#. TRANSLATORS: download size is 0
+#: ../src/model.py:63
+#, fuzzy
+msgid "None"
+msgstr "ఏమీలేదు"
+
+#. TRANSLATORS: download size of very small updates
+#: ../src/model.py:66
+msgid "1 KB"
+msgstr ""
+
+#. TRANSLATORS: download size of small updates, e.g. "250 KB"
+#: ../src/model.py:69
+#, python-format
+msgid "%.0f KB"
+msgstr ""
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../src/model.py:72
+#, python-format
+msgid "%.1f MB"
+msgstr ""
+
+#. find all activities already installed.
+#: ../src/model.py:259
+#, fuzzy
+msgid "Looking for local activities and content..."
+msgstr "స్థానిక కార్యకలాపాలు మరియు కంటెంట్ గురించి ..."
+
+#. enumerate all group urls
+#: ../src/model.py:262 ../src/model.py:272
+#, fuzzy
+msgid "Loading groups..."
+msgstr "లోడ్ అవుతోంది సమూహాలు ..."
+
+#: ../src/model.py:282
+#, python-format, fuzzy
+msgid "Fetching %s..."
+msgstr "% S తెస్తోంది ..."
+
+#. add group header.
+#: ../src/model.py:300
+#, fuzzy
+msgid "Activity Group"
+msgstr "చర్య గ్రూప్"
+
+#: ../src/model.py:331
+#, fuzzy
+msgid "Local activities"
+msgstr "స్థానిక చర్యలు"
+
+#: ../src/model.py:398
+#, python-format, fuzzy
+msgid "At version %s"
+msgstr "వెర్షన్% s వద్ద"
+
+#: ../src/model.py:401
+#, python-format
+msgid "From version %(old)s to %(new)s (Size: %(size)s)"
+msgstr ""
+
+#: ../src/model.py:453
+#, python-format
+msgid "New version %(version)s (Size: %(size)s)"
+msgstr ""
+
+#: ../src/model.py:470
+#, python-format, fuzzy
+msgid "Checking %s..."
+msgstr "S% తనిఖీ చేస్తోంది ..."
+
+#: ../src/model.py:611
+#, fuzzy
+msgid "New group"
+msgstr "కొత్త గ్రూపు"
+
+#: ../src/model.py:776
+#, python-format
+msgid "%(number)d updates available.  Size: %(size)s"
+msgstr ""
+
+#: ../src/model.py:783
+#, fuzzy
+msgid "Setting the list of updates is not permitted."
+msgstr "నవీకరణల జాబితా చేస్తోంది అనుమతి లేదు"
+
+#. this func is needed to make the 'install_update' key show up for '-l'
+#: ../src/model.py:788
+#, fuzzy
+msgid "Only the 'set' operation for this key is defined."
+msgstr "ఓన్లీ తే 'సెట్' ఆపరేషన్ ఫోర్ దిస్ కీ ఇస్ డెఫినేడ్ ."
+
+#: ../src/model.py:801
+#, fuzzy
+msgid "More than one match found for the given activity name or id."
+msgstr "ఒకటి కంటే ఎక్కువ మ్యాచ్ ఇచ్చిన చర్య పేరు లేదా దొరకలేదు."
+
+#: ../src/model.py:803
+#, fuzzy
+msgid "The given activity is already up-to-date."
+msgstr "ఒకటి కంటే ఎక్కువ మ్యాచ్ ఇచ్చిన చర్య పేరు లేదా దొరకలేదు......."
+
+#: ../src/model.py:828
+#, fuzzy
+msgid "No activity found with the given name or id."
+msgstr "ఇచ్చిన పేరు లేదా id తో చర్య దొరకలేదు."
+
+#: ../src/model.py:848
+#, python-format, fuzzy
+msgid "Upgrading %s..."
+msgstr "% S నవీకరిస్తోంది ..."
+
+#: ../src/model.py:854
+#, python-format, , fuzzy
+msgid "Error installing %s."
+msgstr "% S ఇన్స్టాల్ లోపం."

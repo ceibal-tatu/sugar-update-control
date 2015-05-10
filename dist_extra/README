@@ -1,0 +1,42 @@
+python-distutils-extra can be used with python's distutils or the enhanced
+setuptools.
+
+1. DISTUTILS
+
+To make use of the distutils extenstions, you have to import the corresponding methods at the beginning of your setup.py:
+
+from DistUtilsExtra.command import *
+
+Furthermore you have to map the methods to the extended ones:
+
+cmdclass = { "build" : build_extra.build_extra,
+             "build_i18n" :  build_i18n.build_i18n }
+
+If you have replaced the default build command by build_extra and defined the other commands e.g. build_i18n, the sub commands e.g. will be called automatically. There is no need to enable them in the setup.cfg anymore (This was require in a previous version). Disabling imported commands in the setup.cfg is still possible:
+
+[build]
+i18n=False
+
+See the setup.cfg.example for a more complex layout.
+
+Currently there are the following extensions available:
+
+build_extra: initiates the extensions
+build_i18n: provides gettext integration
+build_icons: installs icons
+build_help: installs a docbook based documentation
+
+2. SETUPTOOLS
+
+Just enable the corresponding build target in the setup.cfg:
+
+[build]
+i18n=True
+help=True
+icons=True
+
+No further imports or modifications are required.
+
+I hope that this code could help you to make your live easier,
+
+Sebastian

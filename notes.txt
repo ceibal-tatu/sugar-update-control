@@ -1,0 +1,34 @@
+Available updates:
+[x] [icon] Pippy
+           [description, if available]
+           From version 3 to version 4 (Size: 42kB)
+
+           [check for updates] [Install updates]
+
+[x] [icon] CEIBAL activities
+           3 activities in this group (Size: xyz kB)
+
+Installed activities:
+---------------------
+
+Pippy, v2
+Downloaded: 08/23/2001
+Author: XYZ
+
+New Version available!
+
+Get More
+--------
+
+* Groups file lists groups in order, with final 'catch all'.
+  If don't want to update by default, don't list catch all?
+* Separate 'pin' option in microformat.
+* cmd-line interface to updates lists available updates, lets you
+  install individually or 'all'.
+
+group 1... group 2...activity update_url ... default group.
+
+if no activities, then default to .group 
+
+** add a sugar alert if there were network errors while looking for
+   updates.

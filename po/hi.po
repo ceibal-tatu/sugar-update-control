@@ -1,0 +1,230 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR One Laptop per Child Association, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-26 12:28-0400\n"
+"PO-Revision-Date: 2011-10-04 09:36+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#: ../src/__init__.py:22 ../src/view.py:58
+msgid "Software update"
+msgstr "सॉफ़्टवेयर अद्यतन"
+
+#: ../src/view.py:186
+msgid "_Uncheck All"
+msgstr "सभी अचयनित करें (_U)"
+
+#: ../src/view.py:192
+msgid "_Check All"
+msgstr "सभी चुनें (_C)"
+
+#: ../src/view.py:287
+msgid "Group URL:"
+msgstr "समूह यूआरएल:"
+
+#. # expander/group list view at bottom
+#. special little extension to progress pane.
+#: ../src/view.py:357 ../src/view.py:532
+msgid "Modify activity groups"
+msgstr "क्रिया समूह परिवर्धित करें"
+
+#: ../src/view.py:381
+msgid "Install selected"
+msgstr "चयनित को संस्थापित करें"
+
+#: ../src/view.py:401
+#, python-format
+msgid "Download size: %s"
+msgstr "डाउनलोड आकार: %s"
+
+#: ../src/view.py:434
+msgid "Try again"
+msgstr "फिर से कोशिश करें"
+
+#: ../src/view.py:466
+msgid "Cancelling..."
+msgstr "रद्द किया जा रहा है..."
+
+#: ../src/view.py:484 ../src/view.py:510 ../src/view.py:601
+msgid "Checking for updates..."
+msgstr "अद्यतन के लिए जाँचा जा रहा है..."
+
+#: ../src/view.py:488 ../src/view.py:552
+msgid "Starting download..."
+msgstr "डाउनलोड प्रारंभ किया जा रहा है..."
+
+#: ../src/view.py:515
+msgid ""
+"Software updates correct errors, eliminate security vulnerabilities, and "
+"provide new features."
+msgstr ""
+"सॉफ़्टवेयर अपडेट में त्रुटियाँ दूर होती हैं, सुरक्षा समस्याओं से छुटकारा "
+"मिलता है तथा नई विशेषताएँ मिलती हैं."
+
+#: ../src/view.py:550
+msgid "Downloading updates..."
+msgstr "अद्यतनों को डाउनलोड किया जा रहा है..."
+
+#: ../src/view.py:573 ../src/model.py:841
+#, python-format
+msgid "Downloading %s..."
+msgstr "%s डाउनलोड किया जा रहा है..."
+
+#: ../src/view.py:578 ../src/model.py:845
+#, python-format
+msgid "Examining %s..."
+msgstr "%s का परीक्षण किया जा रहा है..."
+
+#: ../src/view.py:581 ../src/model.py:850
+#, python-format
+msgid "Installing %s..."
+msgstr "%s को संस्थापित किया जा रहा है..."
+
+#: ../src/view.py:631
+msgid "Could not access the network"
+msgstr "नेटवर्क पर पहुँच नहीं सका"
+
+#: ../src/view.py:633
+msgid "Could not access the network to check for updates."
+msgstr "अद्यतनों की जाँच के लिए नेटवर्क पर पहुँच नहीं सका."
+
+#: ../src/view.py:638
+msgid "Your software is up-to-date"
+msgstr "आपका संस्करण अद्यतन है"
+
+#: ../src/view.py:641
+#, python-format
+msgid "You can install %s update"
+msgid_plural "You can install %s updates"
+msgstr[0] "आप %s अद्यत संस्थापित कर सकते हैं"
+msgstr[1] "आप %s अद्यतनों को संस्थापित कर सकते हैं"
+
+#. TRANSLATORS: download size is 0
+#: ../src/model.py:63
+msgid "None"
+msgstr "कुछ नहीं"
+
+#. TRANSLATORS: download size of very small updates
+#: ../src/model.py:66
+msgid "1 KB"
+msgstr "1कि.बा."
+
+#. TRANSLATORS: download size of small updates, e.g. "250 KB"
+#: ../src/model.py:69
+#, python-format
+msgid "%.0f KB"
+msgstr "%.0f कि.बा."
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../src/model.py:72
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f मे.बा."
+
+#. find all activities already installed.
+#: ../src/model.py:259
+msgid "Looking for local activities and content..."
+msgstr "स्थानीय क्रिया व सामग्री के लिए देखा जा रहा है..."
+
+#. enumerate all group urls
+#: ../src/model.py:262 ../src/model.py:272
+msgid "Loading groups..."
+msgstr "समूह लोड किया जा रहा है..."
+
+#: ../src/model.py:282
+#, python-format
+msgid "Fetching %s..."
+msgstr "%s प्राप्त की जा रही हैं..."
+
+#. add group header.
+#: ../src/model.py:300
+msgid "Activity Group"
+msgstr "क्रिया समूह"
+
+#: ../src/model.py:331
+msgid "Local activities"
+msgstr "स्थानीय क्रियाएँ"
+
+#: ../src/model.py:398
+#, python-format
+msgid "At version %s"
+msgstr "संस्करण %s पर है"
+
+#: ../src/model.py:401
+#, python-format
+#, python-format,
+msgid "From version %(old)s to %(new)s (Size: %(size)s)"
+msgstr "संस्करण %(old)s से %(new)s (आकार: %(size)s)"
+
+#: ../src/model.py:453
+#, python-format
+msgid "New version %(version)s (Size: %(size)s)"
+msgstr "नया संस्करण %(version)s (आकार: %(size)s)"
+
+#: ../src/model.py:470
+#, python-format
+msgid "Checking %s..."
+msgstr "%s जाँचा जा रहा है..."
+
+#: ../src/model.py:611
+msgid "New group"
+msgstr "नया समूह"
+
+#: ../src/model.py:776
+#, python-format
+msgid "%(number)d updates available.  Size: %(size)s"
+msgstr "%(number)d अद्यतन उपलब्ध है.  आकार: %(size)s"
+
+#: ../src/model.py:783
+msgid "Setting the list of updates is not permitted."
+msgstr "अद्यतनों की सूची सेट करने की अनुमति नहीं है."
+
+#. this func is needed to make the 'install_update' key show up for '-l'
+#: ../src/model.py:788
+msgid "Only the 'set' operation for this key is defined."
+msgstr "इस कुंजी के लिए सिर्फ सेट ऑपरेशन पारिभाषित है."
+
+#: ../src/model.py:801
+msgid "More than one match found for the given activity name or id."
+msgstr "दिए गए क्रिया नाम या आईडी से मेल खाते एक से अधिक जोड़ मिले हैं."
+
+#: ../src/model.py:803
+msgid "The given activity is already up-to-date."
+msgstr "दिया गया कार्य पहले से ही अद्यतित है!."
+
+#: ../src/model.py:828
+msgid "No activity found with the given name or id."
+msgstr "दिए गए नाम या आईडी का कोई कार्य नहीं मिला."
+
+#: ../src/model.py:848
+#, python-format
+msgid "Upgrading %s..."
+msgstr "%s अद्यतन किया जा रहा है..."
+
+#: ../src/model.py:854
+#, python-format
+msgid "Error installing %s."
+msgstr "%s संस्थापित करने में त्रुटि."

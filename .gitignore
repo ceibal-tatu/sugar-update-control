@@ -1,0 +1,14 @@
+*.pyc
+*.pyo
+debian/tmp
+debian/files
+debian/*.debhelper.log
+debian/sugar-update-control*
+sugar-update-control-*.tar.gz
+sugar-update-control-*.src.rpm
+mock-results
+build
+controlpanel
+apidocs
+rpms
+MANIFEST

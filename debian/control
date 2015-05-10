@@ -1,0 +1,15 @@
+Source: sugar-update-control
+Priority: optional
+Section: x11
+Maintainer: C. Scott Ananian <cscott@laptop.org>
+Standards-Version: 3.8.0
+Homepage: http://dev.laptop.org/git?p=users/cscott/sugar-update-control
+Build-Depends: python-support (>= 0.6), debhelper (>= 5)
+
+Package: sugar-update-control
+Architecture: all
+Depends: ${python:Depends}, python-sugar-0.98, python-bitfrost
+#Provides: ${python:Provides}
+Description: Activity update control panel for Sugar.
+ This package contains a control panel for the Sugar graphical environment
+ which locates and installs activity updates.

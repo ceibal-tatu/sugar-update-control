@@ -1,0 +1,8 @@
+include README
+include COPYING
+include setup.py
+include module-updater.svg
+recursive-include src *.py
+recursive-include bitfrost *.py
+recursive-include po *.po *.pot *.in
+recursive-include po

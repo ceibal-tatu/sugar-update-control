@@ -1,0 +1,7 @@
+#!/bin/bash
+# wraps mock so that it gives a proper error return if it fails.
+set -o pipefail
+( mock "$@" 2>&1 | tee rpms/mock.out ) || exit $?
+# now grep through mock.out to see if an ERROR was flagged.
+grep -q "^ERROR:" rpms/mock.out && exit 1 # fail!
+exit 0

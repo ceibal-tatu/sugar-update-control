@@ -1,0 +1,151 @@
+sugar-update-control (0.27) precise; urgency=low
+
+  * Bumped version to match upstream
+
+ -- Plan Ceibal <ceibal@plan.ceibal.edu.uy>  Tue, 26 Nov 2013 01:00:41 +0100
+
+sugar-update-control (0.20) unstable; urgency=low
+
+  * Fix even more packaging problems
+
+ -- Bernie Innocenti <bernie@codewiz.org> Tue, 3 Mar 2009 04:38:58 +0100
+
+sugar-update-control (0.19) unstable; urgency=low
+
+  * Fix packaging problems; actually distribute translation files.
+
+ -- C. Scott Ananian <cscott@laptop.org>  Wed, 17 Dec 2008 17:20:58 -0500
+
+sugar-update-control (0.18) unstable; urgency=low
+
+  * Trac #9044: Pick up Spanish translations for release.
+
+ -- Chris Ball <cjb@laptop.org>  Fri, 12 Dec 2008 16:43:17 -0400
+
+sugar-update-control (0.17) unstable; urgency=low
+
+  * Trac #7845, #8681: don't die if ~/Activities doesn't exist.
+    This fixes a regression introduced in 0.15.
+
+ -- C. Scott Ananian <cscott@laptop.org>  Sun, 28 Sep 2008 09:37:17 -0400
+
+sugar-update-control (0.16) unstable; urgency=low
+
+  * Filter out library/library.info when it's not in the root directory
+    of the bundle.
+
+ -- C. Scott Ananian <cscott@laptop.org>  Thu, 25 Sep 2008 11:43:09 -0400
+
+sugar-update-control (0.15) unstable; urgency=low
+
+  * Minor fixes: strip whitespace when parsing HTML, avoid an unusual crash
+    when cleaning up from a failed install.
+  * If we've applied the 'G1G1 upgrade hack' to kludge in the G1G1 group,
+    make sure this extra group persists.  This avoids incomplete installs
+    if a network error occurs in the middle.
+
+ -- C. Scott Ananian <cscott@laptop.org>  Wed, 24 Sep 2008 12:21:36 -0400
+
+sugar-update-control (0.14) unstable; urgency=low
+
+  * Trac #8502: clean up icon cruft in /tmp
+  * Trac #8106: support content bundles in addition to activity bundles.
+  * Trac #8532: disable SIGCHLD handler to fix thread & subprocess interaction.
+  * Properly time out slow activity group fetches.
+
+ -- C. Scott Ananian <cscott@laptop.org>  Wed, 17 Sep 2008 17:02:00 -0400
+
+sugar-update-control (0.13) unstable; urgency=low
+
+  * Trac #8415: set base HREF for redirected update_urls correctly.
+  * Trac #8502: clean up URL cache when control panel is closed.
+
+ -- C. Scott Ananian <cscott@laptop.org>  Tue, 16 Sep 2008 15:05:36 -0400
+
+sugar-update-control (0.12) unstable; urgency=low
+
+  * Trac #8361, #8393: don't allow bad update_urls to crash the updater.
+  * Disable auto-close.
+
+ -- C. Scott Ananian <cscott@laptop.org>  Fri, 12 Sep 2008 21:57:44 -0400
+
+sugar-update-control (0.11) unstable; urgency=low
+
+  * Fix egregious typos in v0.10. =(
+
+ -- C. Scott Ananian <cscott@laptop.org>  Wed, 03 Sep 2008 11:01:02 -0400
+
+sugar-update-control (0.10) unstable; urgency=low
+
+  * Trac #8149: don't let malformed activity bundles kill the updater.
+  * Allow groups to provide newer versions of the activities then exist
+    at the activities update_url, to make it easier to create a group
+    for testing 'prerelease' versions.
+
+ -- C. Scott Ananian <cscott@laptop.org>  Tue, 02 Sep 2008 17:21:13 -0400
+
+sugar-update-control (0.9) unstable; urgency=low
+
+  * Trac #7979: fix downloads via squid-using school server.
+    Workaround for python issue 3566: http://bugs.python.org/issue3566
+  * Improve support for cancelling incomplete, hung, or slow downloads.
+  * Trac #7865: stale "download size" label contents.
+  * Don't use partial reads unnecessarily to download activity bundles.
+  * Better installation feedback for delays caused by trac #7733.
+
+ -- C. Scott Ananian <cscott@laptop.org>  Wed, 20 Aug 2008 11:11:27 -0400
+
+sugar-update-control (0.8) unstable; urgency=low
+
+  * Catch 404 when trying to determine the size of a prospective update.
+  * Catch exception caused by malformed activity bundle.
+  * Use update_url in bundle's activity.info if present.
+  * Inhibit suspend during refresh and download/install.
+  * Trac #7622: preserve favorites status across upgrade.
+
+ -- C. Scott Ananian <cscott@laptop.org>  Wed, 13 Aug 2008 00:35:00 -0400
+
+sugar-update-control (0.7) unstable; urgency=low
+
+  * Trac #7845: create ~olpc/Activities if it does not exist.
+
+ -- C. Scott Ananian <cscott@laptop.org>  Thu, 07 Aug 2008 00:06:00 -0400
+
+sugar-update-control (0.6) unstable; urgency=low
+
+  * Update to match sugar patch for dlo trac #7495.
+  * Don't download large activity bundles to memory.
+
+ -- C. Scott Ananian <cscott@laptop.org>  Wed, 06 Aug 2008 13:35:00 -0400
+
+sugar-update-control (0.5) unstable; urgency=low
+
+  * UI improvements, based on Eben's mockups.
+
+ -- C. Scott Ananian <cscott@laptop.org>  Thu, 31 Jul 2008 14:50:00 -0400
+
+sugar-update-control (0.4) unstable; urgency=low
+
+  * Better support for multiple groups.
+  * Sort activities case-insensitively; handle non-ASCII names better.
+  * Support automatically closing control panel if no updates found.
+
+ -- C. Scott Ananian <cscott@laptop.org>  Mon, 21 Jul 2008 19:41:00 -0400
+
+sugar-update-control (0.3) unstable; urgency=low
+
+  * Support editing/reordering activity groups.
+
+ -- C. Scott Ananian <cscott@laptop.org>  Wed, 16 Jul 2008  1:49:00 -0400
+
+sugar-update-control (0.2) unstable; urgency=low
+
+  * First mostly-working version.
+
+ -- C. Scott Ananian <cscott@laptop.org>  Sat, 12 Jul 2008  3:24:00 -0400
+
+sugar-update-control (0.1) unstable; urgency=low
+
+  * Initial packaging.
+
+ -- C. Scott Ananian <cscott@laptop.org>  Fri, 11 Jul 2008 13:06:00 -0400

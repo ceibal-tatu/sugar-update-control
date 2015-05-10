@@ -1,0 +1,33 @@
+From cd8f002c5bccf9ba215b0d9a65d068ac56434762 Mon Sep 17 00:00:00 2001
+From: Ajay Garg <ajay@activitycentral.com>
+Date: Thu, 22 Dec 2011 12:17:50 +0000
+Subject: [PATCH] sl#2822: Software-Update should pre-select only
+ to-be-upgraded activities by default.
+Organization: Sugar Labs Foundation
+
+Only preselect the activities which are already installed on the
+machine. We should not be selecting the 'new' activities by default.
+
+ src/model.py |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+Signed-off-by: Anish Mangal <anish@activitycentral.com>
+---
+ src/model.py |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+diff --git a/src/model.py b/src/model.py
+index 303f337..974c050 100755
+--- a/src/model.py
++++ b/src/model.py
+@@ -449,6 +449,7 @@ class UpdateList(gtk.ListStore):
+                 raise RuntimeError("can't find version for %s" %
+                                    row[UPDATE_URL])
+             row[DESCRIPTION_BIG] = name
++            row[UPDATE_SELECTED] = False
+             row[DESCRIPTION_SMALL] = \
+                 _('New version %(version)s (Size: %(size)s)') % \
+                 {'version':version, 'size':_humanize_size(row[UPDATE_SIZE])}
+-- 
+1.7.4.4
+

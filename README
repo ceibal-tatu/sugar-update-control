@@ -1,0 +1,6 @@
+Activity update mechanism for OLPC, packaged as a Sugar control panel.
+
+Heavily influenced by the Ubuntu (and later Debian) update-manager
+implementation.
+
+Source: http://dev.laptop.org/git?p=users/cscott/sugar-update-control
