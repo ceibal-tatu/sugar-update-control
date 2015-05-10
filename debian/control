@@ -4,7 +4,7 @@ Section: x11
 Maintainer: Plan Ceibal <ceibal@plan.ceibal.edu.uy>
 Standards-Version: 3.8.0
 Homepage: http://dev.laptop.org/git?p=users/cscott/sugar-update-control
-Build-Depends: python-support (>= 0.6), debhelper (>= 5)
+Build-Depends: python-support (>= 0.6), python-distutils-extra, debhelper (>= 5)
 
 Package: sugar-update-control
 Architecture: all
