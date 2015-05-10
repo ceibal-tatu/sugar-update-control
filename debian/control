@@ -1,7 +1,7 @@
 Source: sugar-update-control
 Priority: optional
 Section: x11
-Maintainer: C. Scott Ananian <cscott@laptop.org>
+Maintainer: Plan Ceibal <ceibal@plan.ceibal.edu.uy>
 Standards-Version: 3.8.0
 Homepage: http://dev.laptop.org/git?p=users/cscott/sugar-update-control
 Build-Depends: python-support (>= 0.6), debhelper (>= 5)
